@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0080F99E-2D44-42A4-82B1-9E2BE1B19587}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MathCog.UserData</RootNamespace>
+    <AssemblyName>MathCogUserData</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\..\Math-Visual\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BehaviorUserModelLoader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem.51.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem52.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem53.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem54.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem55.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem56.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem57.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem58.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem59.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem60.cs" />
+    <Compile Include="Test\Test.Problem.01.cs" />
+    <Compile Include="Test\Test.Problem.02.cs" />
+    <Compile Include="Test\Test.Problem.04.cs" />
+    <Compile Include="Test\Test.Problem.05.cs" />
+    <Compile Include="Test\Test.Problem.06.cs" />
+    <Compile Include="Test\Test.Problem.11.cs" />
+    <Compile Include="Test\Test.Problem.16.cs" />
+    <Compile Include="Test\Test.Problem.28.cs" />
+    <Compile Include="Test\Test.Problem.29.cs" />
+    <Compile Include="Test\Algebra\Test.Problem.96.cs" />
+    <Compile Include="Test\Algebra\Test.Problem.97.cs" />
+    <Compile Include="Test\Algebra\Test.Problem.98.cs" />
+    <Compile Include="Test\Algebra\Test.Problem.99.cs" />
+    <Compile Include="Test\Test.Problem.10.cs" />
+    <Compile Include="UserData\ForkSuite\Problem51.cs" />
+    <Compile Include="UserData\ForkSuite\Problem52.cs" />
+    <Compile Include="UserData\ForkSuite\Problem53.cs" />
+    <Compile Include="UserData\ForkSuite\Problem54.cs" />
+    <Compile Include="UserData\ForkSuite\Problem55.cs" />
+    <Compile Include="UserData\ForkSuite\Problem56.cs" />
+    <Compile Include="UserData\ForkSuite\Problem57.cs" />
+    <Compile Include="UserData\ForkSuite\Problem58.cs" />
+    <Compile Include="UserData\ForkSuite\Problem59.cs" />
+    <Compile Include="UserData\ForkSuite\Problem60.cs" />
+    <Compile Include="UserData\Problem01.cs" />
+    <Compile Include="UserData\Problem02.cs" />
+    <Compile Include="UserData\Problem04.cs" />
+    <Compile Include="UserData\Problem05.cs" />
+    <Compile Include="UserData\Problem06.cs" />
+    <Compile Include="UserData\Problem10.cs" />
+    <Compile Include="UserData\Problem11.cs" />
+    <Compile Include="UserData\Problem16.cs" />
+    <Compile Include="UserData\Problem28.cs" />
+    <Compile Include="UserData\Problem29.cs" />
+    <Compile Include="UserData\Algebra\Problem96.cs" />
+    <Compile Include="UserData\Algebra\Problem97.cs" />
+    <Compile Include="UserData\Algebra\Problem98.cs" />
+    <Compile Include="UserData\Algebra\Problem99.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Math-KnowledgeParser\MathCog\MathCog.csproj">
+      <Project>{20496938-6b06-4a7b-8160-04e620938f3e}</Project>
+      <Name>MathCog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Math-KnowledgeParser\ParsingExpressionGrammar\Expr\Expr.csproj">
+      <Project>{eff3e46c-89cb-4e15-84d3-bf7ce0d72b4b}</Project>
+      <Name>Expr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BehaviorGraph\BehaviorGraph.csproj">
+      <Project>{04c2d8d4-0898-45be-ae27-add9079d41dc}</Project>
+      <Name>BehaviorGraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\CSharp.Logic\CSharpLogic.csproj">
+      <Project>{b6ae1355-89f0-4ecb-83ac-b3b5118a6e4e}</Project>
+      <Name>CSharpLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
