@@ -1,9 +1,0 @@
-[submodule "Libs/CSharp.Logic"]
-	path = Libs/CSharp.Logic
-	url = https://github.com/buptkang/CSharp.Logic.git
-[submodule "Libs/Relation.Logic"]
-	path = Libs/Relation.Logic
-	url = https://github.com/buptkang/Relation.Logic.git
-[submodule "Libs/MathCog"]
-	path = Libs/MathCog
-	url = https://github.com/buptkang/MathCog.git
