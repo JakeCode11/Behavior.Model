@@ -75,15 +75,15 @@
     <Content Include="QuickGraph.Impl\TODO.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Libs\CSharp.Logic\CSharpLogic.csproj">
+    <ProjectReference Include="..\MathCog\MathCog\MathCog.csproj">
+      <Project>{71ed2833-ddd7-43d4-8bdf-23fbb83d000c}</Project>
+      <Name>MathCog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\Relation.Logic\CSharp.Logic\CSharpLogic.csproj">
       <Project>{b6ae1355-89f0-4ecb-83ac-b3b5118a6e4e}</Project>
       <Name>CSharpLogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\MathCog\MathCog\MathCog.csproj">
-      <Project>{20496938-6b06-4a7b-8160-04e620938f3e}</Project>
-      <Name>MathCog</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libs\Relation.Logic\Geometry.Logic.csproj">
+    <ProjectReference Include="..\MathCog\Relation.Logic\Geometry.Logic.csproj">
       <Project>{37ff5773-06ae-41c1-bb0f-b7fe22fc874b}</Project>
       <Name>Geometry.Logic</Name>
     </ProjectReference>

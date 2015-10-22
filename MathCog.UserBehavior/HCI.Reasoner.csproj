@@ -76,23 +76,27 @@
       <Project>{04c2d8d4-0898-45be-ae27-add9079d41dc}</Project>
       <Name>BehaviorGraph</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\CSharp.Logic\CSharpLogic.csproj">
-      <Project>{b6ae1355-89f0-4ecb-83ac-b3b5118a6e4e}</Project>
-      <Name>CSharpLogic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Libs\MathCog\MathCog\MathCog.csproj">
-      <Project>{20496938-6b06-4a7b-8160-04e620938f3e}</Project>
+    <ProjectReference Include="..\MathCog\MathCog\MathCog.csproj">
+      <Project>{71ed2833-ddd7-43d4-8bdf-23fbb83d000c}</Project>
       <Name>MathCog</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\MathCog\ParsingExpressionGrammar\Expr.Reify\Expr.Reify.csproj">
+    <ProjectReference Include="..\MathCog\ParsingExpressionGrammar\Expr.Reify\Expr.Reify.csproj">
       <Project>{0646d21e-db97-480d-bdd3-f0a783f2bc84}</Project>
       <Name>Expr.Reify</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\MathCog\ParsingExpressionGrammar\Expr\Expr.csproj">
+    <ProjectReference Include="..\MathCog\ParsingExpressionGrammar\Expr.Unify\Expr.Unify.csproj">
+      <Project>{c4f74bbb-98d6-462f-9d63-2590f646b9d3}</Project>
+      <Name>Expr.Unify</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\ParsingExpressionGrammar\Expr\Expr.csproj">
       <Project>{eff3e46c-89cb-4e15-84d3-bf7ce0d72b4b}</Project>
       <Name>Expr</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\Relation.Logic\Geometry.Logic.csproj">
+    <ProjectReference Include="..\MathCog\Relation.Logic\CSharp.Logic\CSharpLogic.csproj">
+      <Project>{b6ae1355-89f0-4ecb-83ac-b3b5118a6e4e}</Project>
+      <Name>CSharpLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\Relation.Logic\Geometry.Logic.csproj">
       <Project>{37ff5773-06ae-41c1-bb0f-b7fe22fc874b}</Project>
       <Name>Geometry.Logic</Name>
     </ProjectReference>

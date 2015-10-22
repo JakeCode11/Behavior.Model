@@ -1,0 +1,4 @@
+[submodule "MathCog"]
+	path = MathCog
+	url = https://github.com/buptkang/MathCog.git
+	branch = master

@@ -95,19 +95,15 @@
     <Compile Include="UserData\Algebra\Problem99.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Math-KnowledgeParser\MathCog\MathCog.csproj">
-      <Project>{20496938-6b06-4a7b-8160-04e620938f3e}</Project>
-      <Name>MathCog</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Math-KnowledgeParser\ParsingExpressionGrammar\Expr\Expr.csproj">
-      <Project>{eff3e46c-89cb-4e15-84d3-bf7ce0d72b4b}</Project>
-      <Name>Expr</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BehaviorGraph\BehaviorGraph.csproj">
       <Project>{04c2d8d4-0898-45be-ae27-add9079d41dc}</Project>
       <Name>BehaviorGraph</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libs\CSharp.Logic\CSharpLogic.csproj">
+    <ProjectReference Include="..\MathCog\MathCog\MathCog.csproj">
+      <Project>{71ed2833-ddd7-43d4-8bdf-23fbb83d000c}</Project>
+      <Name>MathCog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\Relation.Logic\CSharp.Logic\CSharpLogic.csproj">
       <Project>{b6ae1355-89f0-4ecb-83ac-b3b5118a6e4e}</Project>
       <Name>CSharpLogic</Name>
     </ProjectReference>
