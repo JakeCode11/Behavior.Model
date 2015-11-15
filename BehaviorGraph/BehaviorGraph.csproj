@@ -69,7 +69,6 @@
   <ItemGroup>
     <None Include="LICENSE" />
     <None Include="packages.config" />
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="QuickGraph.Impl\TODO.txt" />
