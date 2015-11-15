@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehaviorGraph", "BehaviorGr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehaviorGraph.UserData", "BehaviorGraph.UserData\BehaviorGraph.UserData.csproj", "{0080F99E-2D44-42A4-82B1-9E2BE1B19587}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solver.ModelTracingTutor", "Solver.ModelTracingTutor", "{3E94C3E3-D980-4D48-9A53-5928BDB17D58}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cognitive.Tutor", "Cognitive.Tutor", "{3E94C3E3-D980-4D48-9A53-5928BDB17D58}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PEG", "PEG", "{9AEE99FE-3096-4B3C-BFBC-578D36802640}"
 EndProject
