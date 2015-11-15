@@ -1,2 +1,9 @@
 ﻿Re-implemenation of behavior graph using QuickGraph code repo.
 
+TODO: graph-based storage.
+
+In memory data now. 
+
+Bayesian Inference.
+
+https://github.com/andypelzer/GraphSharp
