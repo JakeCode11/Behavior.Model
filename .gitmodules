@@ -2,3 +2,6 @@
 	path = MathCog
 	url = https://github.com/buptkang/MathCog.git
 	branch = master
+[submodule "Math.IO"]
+	path = Math.IO
+	url = https://github.com/buptkang/Math.IO.git
