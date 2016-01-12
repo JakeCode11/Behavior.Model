@@ -2,6 +2,3 @@
 	path = MathCog
 	url = https://github.com/buptkang/MathCog.git
 	branch = master
-[submodule "MathProblem.NLP"]
-	path = MathProblem.NLP
-	url = https://github.com/buptkang/MathProblem.NLP.git
