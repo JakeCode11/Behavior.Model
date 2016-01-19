@@ -71,9 +71,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="QuickGraph.Impl\TODO.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MathCog\MathCog\MathCog.csproj">
       <Project>{71ed2833-ddd7-43d4-8bdf-23fbb83d000c}</Project>
       <Name>MathCog</Name>
