@@ -31,23 +31,24 @@ namespace UserModeling
          * Problem 1: Find the distance betweeen A(2,0) and B(5,4)?
          */
 
-        #region Tutoring
+/*        #region Tutoring
 
         public void Init1_Tutoring()
         {
             //Retrieve authoring behavior graph 
             const int problemIndex = 1;
-            bool result = HCIReasoner.Instance.InitProblem(problemIndex);
+            var reasoner = new HCIReasoner();
+            bool result = reasoner.InitProblem(problemIndex);
             //Has authoring behavior data
             Assert.True(result);
-            Assert.Null(HCIReasoner.Instance.ObjectGraph);
+            Assert.Null(reasoner.ObjectGraph);
 
             HCIReasoner.TutorMode = true;
-            HCIReasoner.Instance.InitMode();
+            reasoner.InitMode();
             //Not this one
-            Assert.True(HCIReasoner.Instance.RelationGraph.Nodes.Count == 0);
+            Assert.True(reasoner.RelationGraph.Nodes.Count == 0);
             //Verifier
-            Assert.True(Reasoner.Instance.RelationGraph.Nodes.Count == 3);
+            Assert.True(reasoner.RelationGraph.Nodes.Count == 3);
         }
 
         #region Behavior Test
@@ -61,7 +62,7 @@ namespace UserModeling
             /*
              * User Input: (2,0)
              * Expect result: Correct Track
-             */ 
+             #1# 
             string userFact0 = "(2,0)";
             var userShapeExpr1 = HCIReasoner.Instance.HCILoad(userFact0) as AGShapeExpr;
             Assert.NotNull(userShapeExpr1);
@@ -74,7 +75,7 @@ namespace UserModeling
             /*
              * User Input: A(2,0)
              * Expect result: Correct Track
-             */ 
+             #1# 
             const string userFact1 = "A(2,0)";
             userShapeExpr1 = HCIReasoner.Instance.HCILoad(userFact1) as AGShapeExpr;
             Assert.NotNull(userShapeExpr1);
@@ -87,7 +88,7 @@ namespace UserModeling
              * User Input: d^2 = 9 + 16
              * 
              * Expect result: Correct Track
-             */
+             #1#
             Expr userFact2 = ExprMock.Mock1();
             var userEqExpr2 = HCIReasoner.Instance.HCILoad(userFact2) as AGEquationExpr;
             Assert.NotNull(userEqExpr2);
@@ -100,7 +101,7 @@ namespace UserModeling
              * User Input: d^2 = 16 + 9
              * 
              * Expect result: Correct Track
-             */
+             #1#
             Expr userFact3 = ExprMock.Mock2();
             var userEqExpr3 = HCIReasoner.Instance.HCILoad(userFact3) as AGEquationExpr;
             Assert.NotNull(userEqExpr3);
@@ -113,7 +114,7 @@ namespace UserModeling
              * User Input: d = Sqrt(16+9)
              * 
              * Expect result: Correct Track
-             */
+             #1#
             Expr userFact4 = ExprMock.Mock3();
             var userEqExpr4 = HCIReasoner.Instance.HCILoad(userFact4) as AGEquationExpr;
             Assert.NotNull(userEqExpr4);
@@ -127,7 +128,7 @@ namespace UserModeling
              * User Input: d = Sqrt(4+3)
              * 
              * Expect result: Wrong track
-             */
+             #1#
             Expr userFact4_1 = ExprMock.Mock3_1();
             var userEqExpr4_1 = HCIReasoner.Instance.HCILoad(userFact4_1) as AGEquationExpr;
             Assert.NotNull(userEqExpr4_1);
@@ -141,7 +142,7 @@ namespace UserModeling
              * User Input: d = 5
              * 
              * Expect result: Correct Track
-             */
+             #1#
             const string userFact5 = "d=5";
             var userEqExpr5 = HCIReasoner.Instance.HCILoad(userFact5) as AGPropertyExpr;
             Assert.NotNull(userEqExpr5);
@@ -166,7 +167,7 @@ namespace UserModeling
              * User Input: 5
              * 
              * Expect result: Correct Track TODO Wrong
-             */
+             #1#
             const string userFact5 = "5";
             var userEqExpr5 = HCIReasoner.Instance.HCILoad(userFact5);
             Assert.NotNull(userEqExpr5);
@@ -189,7 +190,7 @@ namespace UserModeling
             /*
              * User Input: (2.0,0)
              * Expect result: Correct Track
-             */
+             #1#
             string userFact0 = "(2.0,0)";
             var userShapeExpr1 = HCIReasoner.Instance.HCILoad(userFact0) as AGShapeExpr;
             Assert.NotNull(userShapeExpr1);
@@ -211,7 +212,7 @@ namespace UserModeling
             /*
              * User Input: AB
              * Expect result: Wrong Track
-             */
+             #1#
             string userFact0 = "AB";
             var userShapeExpr1 = HCIReasoner.Instance.HCILoad(userFact0, ShapeType.LineSegment) as AGQueryExpr;
             Assert.NotNull(userShapeExpr1);
@@ -224,7 +225,7 @@ namespace UserModeling
             /*
              * User Input: Line Segment from geometry
              * Expect result: Correct Track
-       /*      #1#
+       /*      #2#
             var lss = MockSegment();
             var userShapeExpr2 = HCIReasoner.Instance.HCILoad(lss, ShapeType.LineSegment) as AGShapeExpr;
             Assert.NotNull(userShapeExpr2);
@@ -232,7 +233,7 @@ namespace UserModeling
             state = HCIReasoner.Instance.Query(userShapeExpr2, out message, out output);
             Assert.True(state == QueryFeedbackState.TutorQueryProcessedVerify);
             Assert.NotNull(message);
-            Assert.True(message.Equals(AGTutorMessage.VerifyCorrect));*/
+            Assert.True(message.Equals(AGTutorMessage.VerifyCorrect));#1#
         }
 
         private LineSegmentSymbol MockSegment()
@@ -303,7 +304,7 @@ namespace UserModeling
             state = HCIReasoner.Instance.Query(null, out message, out output);
             Assert.True(state == QueryFeedbackState.DemonQueryProcessed);
 
-/*            Assert.True(HCIReasoner.Instance.TraceLeftCount == 8);*/
+/*            Assert.True(HCIReasoner.Instance.TraceLeftCount == 8);#1#
 
             state = HCIReasoner.Instance.Query(null, out message, out output);
             var currentNode = HCIReasoner.Instance.CurrentStateNode;
@@ -323,10 +324,10 @@ namespace UserModeling
             /* ////////////////////////////////////////////////////////////////////
 
              HCIReasoner.Instance.Reset();
-             Reasoner.Instance.Reset();*/
+             Reasoner.Instance.Reset();#1#
         }
 
 
-        #endregion
+        #endregion*/
     }
 }

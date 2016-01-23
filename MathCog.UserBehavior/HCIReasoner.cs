@@ -62,27 +62,10 @@ namespace MathCog.UserModeling
 
         #endregion
 
-        #region Singleton
-
-        private static HCIReasoner _instance;
-        public static HCIReasoner Instance
-        {
-            get
-            {
-                if (_instance == null)
-                {
-                    _instance = new HCIReasoner();
-                }
-                return _instance;
-            }
-        }
-
         public HCIReasoner()
         {
             PropertyChanged += HCIReasoner_PropertyChanged;
         }
-
-        #endregion
 
         #endregion
 
