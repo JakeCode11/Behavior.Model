@@ -37,8 +37,8 @@ namespace UserModeling
             Assert.True(result);
             Assert.Null(HCIReasoner.Instance.ObjectGraph);
 
-            bool tutorMode = true;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
         }
 
         [Test]

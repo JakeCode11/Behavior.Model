@@ -40,8 +40,8 @@ namespace UserModeling
             //Assert.True(HCIReasoner.Instance.UserGraph.Nodes.Count == 3);
             Assert.Null(HCIReasoner.Instance.ObjectGraph);
 
-            bool tutorMode = true;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
 
             //Not this one
             Assert.True(HCIReasoner.Instance.RelationGraph.Nodes.Count == 0);
@@ -100,8 +100,8 @@ namespace UserModeling
             Assert.True(HCIReasoner.Instance.UserGraph.Nodes.Count == 3);
             Assert.Null(HCIReasoner.Instance.ObjectGraph);
 
-            bool tutorMode = false;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
         }
 
         [Test]
@@ -149,8 +149,8 @@ namespace UserModeling
 
             Init2_WorkedExample();
 
-            bool tutorMode = false;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
 
             const string input1 = "A(2,4)";
             const string input2 = "B(5,v)";

@@ -35,8 +35,8 @@ namespace UserModeling
             //Assert.True(HCIReasoner.Instance.UserGraph.Nodes.Count == 3);
             Assert.Null(HCIReasoner.Instance.ObjectGraph);
 
-            bool tutorMode = true;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
 
             //Not this one
             Assert.True(HCIReasoner.Instance.RelationGraph.Nodes.Count == 0);

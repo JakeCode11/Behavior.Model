@@ -45,6 +45,23 @@ namespace MathCog.UserModeling
         
         #endregion
 
+        #region External Properties
+
+        public static bool TutorMode = true;
+
+        #endregion
+
+        #region User Parameters
+
+        private int _problemIndex;
+        public int ProblemIndex
+        {
+            get { return _problemIndex; }
+            set { _problemIndex = value; }
+        }
+
+        #endregion
+
         #region Singleton
 
         private static HCIReasoner _instance;
@@ -63,24 +80,6 @@ namespace MathCog.UserModeling
         public HCIReasoner()
         {
             PropertyChanged += HCIReasoner_PropertyChanged;
-        }
-
-        #endregion
-
-        #region User Parameters
-
-        private int _problemIndex;
-        public int ProblemIndex
-        {
-            get { return _problemIndex; }
-            set { _problemIndex = value; }
-        }
-
-        private bool _tutorMode;
-        public bool TutorMode
-        {
-            get { return _tutorMode; }
-            set { _tutorMode = value;}
         }
 
         #endregion
@@ -121,9 +120,8 @@ namespace MathCog.UserModeling
 
         #region Init Setup
 
-        public void InitMode(bool tutorMode)
+        public void InitMode()
         {
-            TutorMode = tutorMode;
             if (!TutorMode)
             {
                 CurrentStateNode = null;

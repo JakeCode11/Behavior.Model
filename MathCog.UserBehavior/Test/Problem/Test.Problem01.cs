@@ -42,8 +42,8 @@ namespace UserModeling
             Assert.True(result);
             Assert.Null(HCIReasoner.Instance.ObjectGraph);
 
-            bool tutorMode = true;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = true;
+            HCIReasoner.Instance.InitMode();
             //Not this one
             Assert.True(HCIReasoner.Instance.RelationGraph.Nodes.Count == 0);
             //Verifier
@@ -259,8 +259,8 @@ namespace UserModeling
             Assert.True(HCIReasoner.Instance.UserGraph.Nodes.Count == 4);
             Assert.Null(HCIReasoner.Instance.ObjectGraph);
 
-            bool tutorMode = false;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
         }
 
         [Test]

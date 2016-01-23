@@ -42,16 +42,15 @@ namespace MathCog.UserModeling
         [Test]
         public void Test_Problem_97_Demonstration()
         {
-            bool tutorMode = false;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
         }
 
         [Test]
         public void Test_Problem_97_Tutoring()
         {
-            bool tutorMode = true;
-            HCIReasoner.Instance.InitMode(tutorMode);
-            Assert.True(tutorMode);
+            HCIReasoner.TutorMode = true;
+            HCIReasoner.Instance.InitMode();
 
             const string userFact = "-3+2x=2x-3";
             var userEqExpr1 = HCIReasoner.Instance.HCILoad(userFact) as AGEquationExpr;

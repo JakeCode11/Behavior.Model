@@ -41,8 +41,8 @@ namespace MathCog.UserModeling
         [Test]
         public void Test_Problem_99_Demonstration()
         {
-            bool tutorMode = false;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
 
             bool userInput = false;
 
@@ -125,9 +125,9 @@ namespace MathCog.UserModeling
         [Test]
         public void Test_Problem_99_Tutoring()
         {
-            bool tutorMode = true;
-            HCIReasoner.Instance.InitMode(tutorMode);
-            bool userInput = tutorMode;
+            HCIReasoner.TutorMode = true;
+            HCIReasoner.Instance.InitMode();
+            bool userInput = true;
 
             //drag input
             const string fact1 = "1+2+3=";

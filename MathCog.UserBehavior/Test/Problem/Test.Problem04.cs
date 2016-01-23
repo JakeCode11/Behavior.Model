@@ -43,8 +43,8 @@ namespace UserModeling
             Assert.True(result);
             Assert.Null(HCIReasoner.Instance.ObjectGraph);
 
-            bool tutorMode = true;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
         }
 
         [Test]
@@ -221,8 +221,8 @@ namespace UserModeling
             //Has authoring behavior data
             Assert.True(result);
             Assert.Null(HCIReasoner.Instance.ObjectGraph);
-            bool tutorMode = false;
-            HCIReasoner.Instance.InitMode(tutorMode);
+            HCIReasoner.TutorMode = false;
+            HCIReasoner.Instance.InitMode();
         }
 
         public void Test_Problem_04_WorkedExample_0()
