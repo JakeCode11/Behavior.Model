@@ -60,7 +60,7 @@ namespace MathCog.UserModeling
             }
         }
 
-        private HCIReasoner()
+        public HCIReasoner()
         {
             PropertyChanged += HCIReasoner_PropertyChanged;
         }
