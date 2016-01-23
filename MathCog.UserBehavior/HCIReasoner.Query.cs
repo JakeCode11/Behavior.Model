@@ -82,8 +82,7 @@ namespace MathCog.UserModeling
             UserGraph = null;
             ObjectGraph = null;
             _hasBehaviorModel = false;
-            _problemIndex = -1;
-            _tutorMode = false;
+            _problemIndex = -1;          
             CurrentStateNode = null;
             _currentStepHintRequired = true;
             _queryProcessed = false;
