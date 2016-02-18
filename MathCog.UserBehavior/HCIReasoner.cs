@@ -45,9 +45,11 @@ namespace MathCog.UserModeling
         
         #endregion
 
-        #region External Properties
+        #region Static Properties
 
         public static bool TutorMode = true;
+
+        public static bool ReasoningOn = true;
 
         #endregion
 

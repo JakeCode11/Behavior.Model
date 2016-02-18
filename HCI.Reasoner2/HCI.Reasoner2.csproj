@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A6374FC2-8104-431E-9A23-9CCADB03B59B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserModeling</RootNamespace>
+    <AssemblyName>UserModeling</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\packages\NUnit.3.0.1\lib\net40\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\IAnalyze.cs" />
+    <Compile Include="Interfaces\IInput.cs" />
+    <Compile Include="Interpreter.IO.cs" />
+    <Compile Include="Interpreter.Query.cs" />
+    <Compile Include="Interpreter.Verify.cs" />
+    <Compile Include="Interfaces\IQuery.cs" />
+    <Compile Include="Interfaces\ISelect.cs" />
+    <Compile Include="Interfaces\IVerify.cs" />
+    <Compile Include="MPTutor.cs" />
+    <Compile Include="MathTutor.cs" />
+    <Compile Include="Interpreter.cs" />
+    <Compile Include="MessageUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setttings.cs" />
+    <Compile Include="Test\APITest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BehaviorGraph.UserData\BehaviorGraph.UserData.csproj">
+      <Project>{0080f99e-2d44-42a4-82b1-9e2be1b19587}</Project>
+      <Name>BehaviorGraph.UserData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BehaviorGraph\BehaviorGraph.csproj">
+      <Project>{04c2d8d4-0898-45be-ae27-add9079d41dc}</Project>
+      <Name>BehaviorGraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\MathCog\MathCog.csproj">
+      <Project>{71ed2833-ddd7-43d4-8bdf-23fbb83d000c}</Project>
+      <Name>MathCog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\ParsingExpressionGrammar\Expr.Reify\Expr.Reify.csproj">
+      <Project>{0646d21e-db97-480d-bdd3-f0a783f2bc84}</Project>
+      <Name>Expr.Reify</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\ParsingExpressionGrammar\Expr.Unify\Expr.Unify.csproj">
+      <Project>{c4f74bbb-98d6-462f-9d63-2590f646b9d3}</Project>
+      <Name>Expr.Unify</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\ParsingExpressionGrammar\Expr\Expr.csproj">
+      <Project>{eff3e46c-89cb-4e15-84d3-bf7ce0d72b4b}</Project>
+      <Name>Expr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\Relation.Logic\CSharp.Logic\CSharpLogic.csproj">
+      <Project>{b6ae1355-89f0-4ecb-83ac-b3b5118a6e4e}</Project>
+      <Name>CSharpLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathCog\Relation.Logic\Geometry.Logic.csproj">
+      <Project>{37ff5773-06ae-41c1-bb0f-b7fe22fc874b}</Project>
+      <Name>Geometry.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mock.NLP\Geometry.Concept\ConceptCrawler.csproj">
+      <Project>{95ae5fdd-f7a0-43bd-9c43-617bb4696afd}</Project>
+      <Name>ConceptCrawler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mock.NLP\Problem.NLP\Problem.NLP\Loader.csproj">
+      <Project>{fa20c626-18f8-4822-be67-a8ffeca4a902}</Project>
+      <Name>Loader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Tutor.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

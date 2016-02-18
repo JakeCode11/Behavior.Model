@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="The highest-level tutor agent">
+    <Position X="5.255" Y="0.544" Height="0.354" Width="2.256" />
+  </Comment>
+  <Comment CommentText="A single math problem tutor agent">
+    <Position X="2.493" Y="2.831" Height="0.389" Width="2.311" />
+  </Comment>
+  <Comment CommentText="Problem Selection Model">
+    <Position X="9.895" Y="0.612" Height="0.311" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Student Performance Analysis">
+    <Position X="1.565" Y="0.623" Height="0.319" Width="2.275" />
+  </Comment>
+  <Class Name="UserModeling.MpTutorInterpreter">
+    <Position X="8.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAIACAAAAAAACAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpreter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UserModeling.MpTutor" Collapsed="true">
+    <Position X="5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAEAAQCABAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>MPTutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserModeling.MathTutor" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAQgAAQAAAAAA=</HashCode>
+      <FileName>MathTutor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="UserModeling.IQuery" Collapsed="true">
+    <Position X="7" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>IQuery.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UserModeling.IVerify" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVerify.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UserModeling.IInput" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IInput.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UserModeling.ISelect" Collapsed="true">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ISelect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UserModeling.IAnalyze" Collapsed="true">
+    <Position X="2" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAnalyze.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
