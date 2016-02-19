@@ -84,7 +84,7 @@ namespace UserModeling
 
             var innerState = initNode.State as InnerLoopBehaviorState;
             Assert.NotNull(innerState);
-            Assert.True(innerState.UserKnowledge.ToString().Equals("(1+1)"));
+            Assert.True(innerState.UserKnowledge.ToString().Equals("1+1"));
 
             Assert.True(initNode.InEdges.Count == 0);
             Assert.True(initNode.OutEdges.Count == 1);

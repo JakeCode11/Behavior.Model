@@ -116,7 +116,7 @@ namespace MathCog.UserModeling
 
         public bool InitProblem(int problemIndex)
         {
-            Reset();
+            //Reset();
             Reasoner.Instance.Reset();
             ProblemIndex = problemIndex;
             return LoadUserModel(ProblemIndex);

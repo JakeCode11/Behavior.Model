@@ -94,6 +94,24 @@ namespace MathCogUserData
                     return ProblemAuthoringModel.Problem98();
                 case 99:
                     return ProblemAuthoringModel.Problem99();
+
+                case 61:
+                    return ProblemAuthoringModel.Problem61();
+                case 62:
+                    return ProblemAuthoringModel.Problem62();
+                case 63:
+                    return ProblemAuthoringModel.Problem63();
+                case 64:
+                    return ProblemAuthoringModel.Problem64();
+                case 65:
+                    return ProblemAuthoringModel.Problem65();
+                case 66:
+                    return ProblemAuthoringModel.Problem66();
+                case 67:
+                    return ProblemAuthoringModel.Problem67();
+                case 68:
+                    return ProblemAuthoringModel.Problem68();
+
                 default:
                     return null;
             }

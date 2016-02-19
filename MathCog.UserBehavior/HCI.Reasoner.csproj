@@ -68,9 +68,9 @@
     <Content Include="Test\Problem\Test.Problem29.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BehaviorGraph.UserData\BehaviorGraph.UserData.csproj">
+    <ProjectReference Include="..\BehaviorGraph.UserData\BehaviorGraph.Authoring.csproj">
       <Project>{0080f99e-2d44-42a4-82b1-9e2be1b19587}</Project>
-      <Name>BehaviorGraph.UserData</Name>
+      <Name>BehaviorGraph.Authoring</Name>
     </ProjectReference>
     <ProjectReference Include="..\BehaviorGraph\BehaviorGraph.csproj">
       <Project>{04c2d8d4-0898-45be-ae27-add9079d41dc}</Project>
