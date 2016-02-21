@@ -137,6 +137,8 @@ namespace MathCog.UserModeling
 
         private bool LoadUserModel(int problemIndex)
         {
+            Console.WriteLine("***************************");
+
             _problemIndex = problemIndex;
 
             var behaviorGraph = BehaviorUserModelLoader.Instance.LoadProblem(problemIndex);
