@@ -30,7 +30,9 @@ namespace MathCog.UserModeling
     {
         #region Properties
 
-        private IKnowledge _queriedKnowledge; //In Tutor Mode, it does not matter
+        //Worked by Example Property
+
+        private IKnowledge _queriedKnowledge; 
         public IKnowledge QueriedKnowledge
         {
             get { return _queriedKnowledge; }
@@ -600,7 +602,7 @@ namespace MathCog.UserModeling
                     //insert nodes
                     UserGraph.Insert(trace);
                     CurrentStateNode = UserGraph.SearchInnerLoopNode(source); //update _currentStateNode;
-                    Debug.Assert(_currentStateNode != null);
+                    //Debug.Assert(_currentStateNode != null);
                     msg = AGTutorMessage.VerifyCorrect;
                 }
             }

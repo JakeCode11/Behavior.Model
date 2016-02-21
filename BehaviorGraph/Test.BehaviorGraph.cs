@@ -27,6 +27,8 @@ namespace UserModeling
     [TestFixture]
     public class TestGraphInput
     {
+
+        #region Test One Strategy and One Trace Step
         /*
          * Solving example : solve 1+1
          * 
@@ -85,6 +87,125 @@ namespace UserModeling
             count = graph.PathFinding(prevObj);
             Assert.True(count == 1);
         }
+
+        /*
+       * Solving example : solve 1+1
+       * 
+       * Trace count: 1
+       * Trace : 1+1 -> 2 (apply additional rule)
+       * 
+       * Authoring: 1+1-> 3 (Incorrect path) 
+       */
+        [Test]
+        public void Test_OneStrategy_OneTraceStep_Author()
+        {
+            //1+1->2
+            var expr1 = new Term(Expression.Add, new List<object> { 1, 1 });
+            var ts = new TraceStep(expr1, 2, "null", "meta-rule todo", "rule todo");
+            var tsExpr = new TraceStepExpr(ts);
+            var lst = new List<TraceStepExpr>() { tsExpr };
+            var tuple = new Tuple<object, object>("strategy1", lst);
+            var lstStrategy = new List<Tuple<object, object>>();
+            lstStrategy.Add(tuple);
+
+            var graph = new BehaviorGraph();
+            graph.Insert(lstStrategy);
+            Assert.True(graph.Nodes.Count == 2);
+
+            var node0 = graph.Nodes[0];
+            Assert.Null(node0.SubGraph);
+            var node1 = graph.Nodes[1];
+            Assert.NotNull(node1.SubGraph);
+
+            Assert.True(node1.SubGraph.Nodes.Count == 2);
+
+            /////////////////////////////////////////////
+
+            //4-1->2
+            var expr2 = new Term(Expression.Add, new List<object> { 4, 1 });
+            // User Input, //wrong step
+            var ts1 = new TraceStep(expr2, 2);
+            var ts1Expr = new TraceStepExpr(ts1);
+            var tsLst = new List<TraceStepExpr>() { ts1Expr };
+            var tuple2 = new Tuple<object, object>("strategy1", tsLst);
+            var lst44 = new List<Tuple<object, object>>() { tuple2 };
+
+            bool matchResult = graph.Match(lst44);
+            Assert.True(matchResult);
+            graph.Update(lst44);
+
+            Assert.True(graph.Nodes.Count == 2);
+            Assert.True(node1.SubGraph.Nodes.Count == 3);
+
+            /////////////////////////////////////////////
+
+            //test search
+            var initNode = graph.RetrieveInitInnerNode();
+            Assert.NotNull(initNode);
+
+            var innerState = initNode.State as InnerLoopBehaviorState;
+            Assert.NotNull(innerState);
+            Assert.True(innerState.UserKnowledge.ToString().Equals("1+1"));
+
+            Assert.True(initNode.InEdges.Count == 0);
+            Assert.True(initNode.OutEdges.Count == 1);
+
+            int count = graph.PathFinding(initNode);
+            Assert.True(count == 1);
+
+            var nextObj = graph.SearchNextInnerLoopNode(initNode);
+            var tuple22 = nextObj as Tuple<object, object>;
+            Assert.NotNull(tuple22);
+            var nextNode = tuple22.Item2 as BehaviorGraphNode;
+            Assert.NotNull(nextNode);
+            count = graph.PathFinding(nextNode);
+            Assert.True(count == 0);
+        }
+
+        /*
+        * Solving example : solve 1+1
+        * 
+        * Trace count: 1
+        * Trace : 1+1 -> 2 (apply additional rule)
+        */
+        [Test]
+        public void Test_OneStrategy_OneTraceStep_UserInput()
+        {
+            var expr1 = new Term(Expression.Add, new List<object> { 1, 1 });
+            var ts = new TraceStep(expr1, 2, null, "meta-rule todo", "rule todo");
+            var tsExpr = new TraceStepExpr(ts);
+            var lst = new List<TraceStepExpr>() { tsExpr };
+            var tuple = new Tuple<object, object>("strategy1", lst);
+            var lstStrategy = new List<Tuple<object, object>>();
+            lstStrategy.Add(tuple);
+
+            var graph = new BehaviorGraph();
+            graph.Insert(lstStrategy);
+            Assert.True(graph.Nodes.Count == 2);
+
+            var node0 = graph.Nodes[0];
+            Assert.Null(node0.SubGraph);
+            var node1 = graph.Nodes[1];
+            Assert.NotNull(node1.SubGraph);
+
+            Assert.True(node1.SubGraph.Nodes.Count == 2);
+
+            /////////////////////////////////////////////
+
+            // User Input
+            var userExpr1 = new Term(Expression.Add, new List<object> { 1, 1 });
+            BehaviorGraphNode matchedNode;
+            var node = graph.SearchInnerLoopNode(userExpr1);
+            Assert.NotNull(node);
+
+            var userExpr2 = new Term(Expression.Add, new List<object> { 1, 2 });
+            node = graph.SearchInnerLoopNode(userExpr2);
+            Assert.Null(node);
+        }
+
+        #endregion
+
+        #region One Strategy and Multiple Trace Step
 
         /*
          * Solving example : solve 1+1+1
@@ -252,5 +373,108 @@ namespace UserModeling
             var strateties = graph.SearchAllOuterEdgeInfos();
             Assert.True(strateties.Count == 2);
         }
+
+        /*
+         * Solving example : solve 1+1+1
+         * 
+         * Trace count: 2
+         * Trace : 1+1+1 -> 2+1 -> 3 (apply additional rule)
+         * 
+         * User Trace: 1+1+1-> 1+2 -> 3
+         */
+        [Test]
+        public void Test_OneStrategy_MultiTraceStep_Author()
+        {
+            var expr1 = new Term(Expression.Add, new List<object> { 1, 1, 1 });
+            var expr2 = new Term(Expression.Add, new List<object> { 2, 1 });
+            var ts1 = new TraceStep(expr1, expr2, null, "meta-rule todo", "rule todo");
+            var ts1Expr = new TraceStepExpr(ts1);
+            var ts2 = new TraceStep(expr2, 2, null, "meta-rule todo", "rule todo");
+            var ts2Expr = new TraceStepExpr(ts2);
+            var lst = new List<TraceStepExpr>() { ts1Expr, ts2Expr };
+            var tuple = new Tuple<object, object>("strategy2", lst);
+            var lstStrategy = new List<Tuple<object, object>>();
+            lstStrategy.Add(tuple);
+
+            var graph = new BehaviorGraph();
+            graph.Insert(lstStrategy);
+            Assert.True(graph.Nodes.Count == 2);
+
+            var node0 = graph.Nodes[0];
+            Assert.Null(node0.SubGraph);
+            var node1 = graph.Nodes[1];
+            Assert.NotNull(node1.SubGraph);
+
+            Assert.True(node1.SubGraph.Nodes.Count == 3);
+
+            /////////////////////////////////////////////
+
+            // User Input, //2 steps trace 
+            var expr3 = new Term(Expression.Add, new List<object> { 1, 2 });
+            var ts3 = new TraceStep(expr1, expr3, null, "meta-rule todo", "rule todo");
+            var ts3Expr = new TraceStepExpr(ts3);
+            var ts4 = new TraceStep(expr3, 2, null, "meta-rule todo", "rule todo");
+            var ts4Expr = new TraceStepExpr(ts4);
+            var lst2 = new List<TraceStepExpr>() { ts3Expr, ts4Expr };
+
+            var tuple2 = new Tuple<object, object>("strategy1", lst2);
+            var lstStrategy2 = new List<Tuple<object, object>>();
+            lstStrategy2.Add(tuple2);
+
+            //Under the same strategy
+            graph.Update(lstStrategy2);
+            Assert.True(graph.Nodes.Count == 3);
+            Assert.True(node1.SubGraph.Nodes.Count == 3);
+        }
+
+        /*
+      * Solving example : solve 1+1+1
+      * 
+      * Trace count: 2
+      * Trace : 1+1+1 -> 2+1 -> 3 (apply additional rule)
+      */
+        [Test]
+        public void Test_OneStrategy_MultiTraceStep_UserInput()
+        {
+            var expr1 = new Term(Expression.Add, new List<object> { 1, 1, 1 });
+            var eq1 = new Equation(expr1, 20);
+            var expr2 = new Term(Expression.Add, new List<object> { 2, 1 });
+            var ts1 = new TraceStep(eq1, expr2, null, "meta-rule todo", "rule todo");
+            var ts1Expr = new TraceStepExpr(ts1);
+            var ts2 = new TraceStep(expr2, 2, null, "meta-rule todo", "rule todo");
+            var ts2Expr = new TraceStepExpr(ts2);
+            var lst = new List<TraceStepExpr>() { ts1Expr, ts2Expr };
+            var tuple = new Tuple<object, object>("strategy1", lst);
+            var lstStrategy = new List<Tuple<object, object>>();
+            lstStrategy.Add(tuple);
+
+            var graph = new BehaviorGraph();
+            graph.Insert(lstStrategy);
+            Assert.True(graph.Nodes.Count == 2);
+
+            var node0 = graph.Nodes[0];
+            Assert.Null(node0.SubGraph);
+            var node1 = graph.Nodes[1];
+            Assert.NotNull(node1.SubGraph);
+
+            Assert.True(node1.SubGraph.Nodes.Count == 3);
+
+            /////////////////////////////////////////////
+            // User Input
+            var userExpr1 = new Term(Expression.Add, new List<object> { 1, 1, 1 });
+            var userEq1 = new Equation(userExpr1, 20);
+            var node = graph.SearchInnerLoopNode(userEq1);
+            Assert.NotNull(node);
+
+            var userExpr2 = new Term(Expression.Add, new List<object> { 1, 3 });
+            node = graph.SearchInnerLoopNode(userExpr2);
+            Assert.Null(node);
+        }
+
+
+
+        #endregion
+
+
     }
 }

@@ -47,7 +47,7 @@
   <ItemGroup>
     <Compile Include="ProblemsLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Problems.test.cs" />
+    <Compile Include="Test.Problems.cs" />
     <Compile Include="Problems.cs" />
   </ItemGroup>
   <ItemGroup>

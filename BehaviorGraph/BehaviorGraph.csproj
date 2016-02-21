@@ -57,19 +57,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Graph\BehaviorGraph.Search.cs" />
-    <Compile Include="Graph\BehaviorGraph.cs" />
-    <Compile Include="Graph\BehaviorGraphEdge.cs" />
-    <Compile Include="Graph\BehaviorGraphEdgeProperty.cs" />
-    <Compile Include="Graph\BehaviorGraphNode.cs" />
-    <Compile Include="Graph\BehaviorGraphNodeState.cs" />
+    <Compile Include="BehaviorGraph.Search.cs" />
+    <Compile Include="BehaviorGraph.cs" />
+    <Compile Include="BehaviorGraphEdge.cs" />
+    <Compile Include="BehaviorGraphEdgeProperty.cs" />
+    <Compile Include="BehaviorGraphNode.cs" />
+    <Compile Include="BehaviorGraphNodeState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test\1.Test.Authoring.cs" />
-    <Compile Include="Test\0.Test.KnowledgeInput.cs" />
-    <Compile Include="Test\2.Test.UserInput.cs" />
+    <Compile Include="Test.BehaviorGraph.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LICENSE" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

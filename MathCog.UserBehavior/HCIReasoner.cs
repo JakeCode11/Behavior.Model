@@ -49,8 +49,6 @@ namespace MathCog.UserModeling
 
         public static bool TutorMode = true;
 
-        public static bool ReasoningOn = true;
-
         #endregion
 
         #region User Parameters
