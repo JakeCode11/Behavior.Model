@@ -16,10 +16,10 @@
 using System;
 using System.ComponentModel;
 using MathCog.UserModeling.Annotations;
+using MathCogUserData;
 using UserModeling;
 namespace MathCog.UserModeling
 {
-    using MathCogUserData;
     using CSharpLogic;
     using System.Diagnostics;
     using MathCog;

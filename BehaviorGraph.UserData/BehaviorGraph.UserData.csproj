@@ -45,10 +45,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProblemsLoader.cs" />
+    <Compile Include="BehaviorUserModelLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Problems.test.cs" />
-    <Compile Include="Problems.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem.51.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem52.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem53.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem54.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem55.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem56.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem57.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem58.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem59.cs" />
+    <Compile Include="Test\ForkSuite\Test.Problem60.cs" />
+    <Compile Include="Test\Test.Problem.01.cs" />
+    <Compile Include="Test\Test.Problem.02.cs" />
+    <Compile Include="Test\Test.Problem.04.cs" />
+    <Compile Include="Test\Test.Problem.05.cs" />
+    <Compile Include="Test\Test.Problem.06.cs" />
+    <Compile Include="Test\Test.Problem.11.cs" />
+    <Compile Include="Test\Test.Problem.16.cs" />
+    <Compile Include="Test\Test.Problem.28.cs" />
+    <Compile Include="Test\Test.Problem.29.cs" />
+    <Compile Include="Test\Algebra\Test.Problem.96.cs" />
+    <Compile Include="Test\Algebra\Test.Problem.97.cs" />
+    <Compile Include="Test\Algebra\Test.Problem.98.cs" />
+    <Compile Include="Test\Algebra\Test.Problem.99.cs" />
+    <Compile Include="Test\Test.Problem.10.cs" />
+    <Compile Include="UserData\ForkSuite\Problem51.cs" />
+    <Compile Include="UserData\ForkSuite\Problem52.cs" />
+    <Compile Include="UserData\ForkSuite\Problem53.cs" />
+    <Compile Include="UserData\ForkSuite\Problem54.cs" />
+    <Compile Include="UserData\ForkSuite\Problem55.cs" />
+    <Compile Include="UserData\ForkSuite\Problem56.cs" />
+    <Compile Include="UserData\ForkSuite\Problem57.cs" />
+    <Compile Include="UserData\ForkSuite\Problem58.cs" />
+    <Compile Include="UserData\ForkSuite\Problem59.cs" />
+    <Compile Include="UserData\ForkSuite\Problem60.cs" />
+    <Compile Include="UserData\Problem01.cs" />
+    <Compile Include="UserData\Problem02.cs" />
+    <Compile Include="UserData\Problem04.cs" />
+    <Compile Include="UserData\Problem05.cs" />
+    <Compile Include="UserData\Problem06.cs" />
+    <Compile Include="UserData\Problem10.cs" />
+    <Compile Include="UserData\Problem11.cs" />
+    <Compile Include="UserData\Problem16.cs" />
+    <Compile Include="UserData\Problem28.cs" />
+    <Compile Include="UserData\Problem29.cs" />
+    <Compile Include="UserData\Algebra\Problem96.cs" />
+    <Compile Include="UserData\Algebra\Problem97.cs" />
+    <Compile Include="UserData\Algebra\Problem98.cs" />
+    <Compile Include="UserData\Algebra\Problem99.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BehaviorGraph\BehaviorGraph.csproj">
@@ -62,10 +108,6 @@
     <ProjectReference Include="..\MathCog\Relation.Logic\CSharp.Logic\CSharpLogic.csproj">
       <Project>{b6ae1355-89f0-4ecb-83ac-b3b5118a6e4e}</Project>
       <Name>CSharpLogic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MathCog\Relation.Logic\RelationLogic.csproj">
-      <Project>{37ff5773-06ae-41c1-bb0f-b7fe22fc874b}</Project>
-      <Name>RelationLogic</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

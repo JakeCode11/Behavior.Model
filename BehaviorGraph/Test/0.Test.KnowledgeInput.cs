@@ -38,7 +38,7 @@ namespace UserModeling
         {
             //strategy1 : 1+1->2
             var expr1 = new Term(Expression.Add, new List<object>{1,1});
-            var ts = new TraceStep(expr1, 2, "meta-rule todo", "rule todo");
+            var ts = new TraceStep(expr1, 2, "null", "meta-rule todo", "rule todo");
             var tsExpr = new TraceStepExpr(ts);
             var lst = new List<TraceStepExpr>() { tsExpr};
             var tuple = new Tuple<object, object>("strategy1", lst);
@@ -97,9 +97,9 @@ namespace UserModeling
         {
             var expr1 = new Term(Expression.Add, new List<object> { 1, 1 , 1});
             var expr2 = new Term(Expression.Add, new List<object> {2, 1} );
-            var ts1 = new TraceStep(expr1, expr2, "meta-rule todo", "rule todo");
+            var ts1 = new TraceStep(expr1, expr2, "null", "meta-rule todo", "rule todo");
             var ts1Expr = new TraceStepExpr(ts1);
-            var ts2 = new TraceStep(expr2, 2, "meta-rule todo", "rule todo");
+            var ts2 = new TraceStep(expr2, 2, "null", "meta-rule todo", "rule todo");
             var ts2Expr = new TraceStepExpr(ts2);
             var lst = new List<TraceStepExpr>() { ts1Expr,ts2Expr};
             var tuple = new Tuple<object, object>("strategy1", lst);
@@ -147,19 +147,19 @@ namespace UserModeling
         public void Test_MultiStrategy_1()
         {
             //strategy1: 1->2, 2->3
-            var ts1 = new TraceStep(1, 2, "TODO1", "TODO2");
+            var ts1 = new TraceStep(1, 2, "null", "TODO1", "TODO2");
             var ts1Expr = new TraceStepExpr(ts1);
-            var ts2 = new TraceStep(2, 3, "TODO2", "TODO3");
+            var ts2 = new TraceStep(2, 3, "null", "TODO2", "TODO3");
             var ts2Expr = new TraceStepExpr(ts2);
             var lst1 = new List<TraceStepExpr>() { ts1Expr, ts2Expr };
             var tuple1 = new Tuple<object, object>("strategy1", lst1);
 
             //strategy2: 2->3, 3->5, 5->7
-            var ts3 = new TraceStep(2, 3, "TODO", "TODO1");
+            var ts3 = new TraceStep(2, 3, null, "TODO", "TODO1");
             var ts3Expr = new TraceStepExpr(ts3);
-            var ts4 = new TraceStep(3, 5, "TODO2", "TODO5");
+            var ts4 = new TraceStep(3, 5, null, "TODO2", "TODO5");
             var ts4Expr = new TraceStepExpr(ts4);
-            var ts5 = new TraceStep(5, 7, "Test1", "test23");
+            var ts5 = new TraceStep(5, 7, null,"Test1", "test23");
             var ts5Expr = new TraceStepExpr(ts5);
             var lst2 = new List<TraceStepExpr>() {ts3Expr, ts4Expr, ts5Expr};
             var tuple2 = new Tuple<object, object>("strategy2", lst2);

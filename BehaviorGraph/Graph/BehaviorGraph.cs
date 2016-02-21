@@ -15,7 +15,6 @@
  *******************************************************************************/
 
 using System.Reflection;
-using AlgebraGeometry;
 using CSharpLogic;
 using NUnit.Framework;
 

@@ -37,7 +37,7 @@ namespace UserModeling
         public void Test_OneStrategy_OneTraceStep()
         {
             var expr1 = new Term(Expression.Add, new List<object> { 1, 1 });
-            var ts = new TraceStep(expr1, 2, "meta-rule todo", "rule todo");
+            var ts = new TraceStep(expr1, 2, null, "meta-rule todo", "rule todo");
             var tsExpr = new TraceStepExpr(ts);
             var lst = new List<TraceStepExpr>() { tsExpr };
             var tuple = new Tuple<object, object>("strategy1", lst);
@@ -87,9 +87,9 @@ namespace UserModeling
             var expr1 = new Term(Expression.Add, new List<object> { 1, 1, 1 });
             var eq1 = new Equation(expr1, 20);
             var expr2 = new Term(Expression.Add, new List<object> { 2, 1 });
-            var ts1 = new TraceStep(eq1, expr2, "meta-rule todo", "rule todo");
+            var ts1 = new TraceStep(eq1, expr2, null, "meta-rule todo", "rule todo");
             var ts1Expr = new TraceStepExpr(ts1);
-            var ts2 = new TraceStep(expr2, 2, "meta-rule todo", "rule todo");
+            var ts2 = new TraceStep(expr2, 2, null,"meta-rule todo", "rule todo");
             var ts2Expr = new TraceStepExpr(ts2);
             var lst = new List<TraceStepExpr>() { ts1Expr, ts2Expr };
             var tuple = new Tuple<object, object>("strategy1", lst);

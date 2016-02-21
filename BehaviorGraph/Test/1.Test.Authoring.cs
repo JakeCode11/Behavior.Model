@@ -40,7 +40,7 @@ namespace UserModeling
         {
             //1+1->2
             var expr1 = new Term(Expression.Add, new List<object> { 1, 1 });
-            var ts = new TraceStep(expr1, 2, "meta-rule todo", "rule todo");
+            var ts = new TraceStep(expr1, 2, "null", "meta-rule todo", "rule todo");
             var tsExpr = new TraceStepExpr(ts);
             var lst = new List<TraceStepExpr>() { tsExpr };
             var tuple = new Tuple<object, object>("strategy1", lst);
@@ -114,9 +114,9 @@ namespace UserModeling
         {
             var expr1 = new Term(Expression.Add, new List<object> { 1, 1, 1 });
             var expr2 = new Term(Expression.Add, new List<object> { 2, 1 });
-            var ts1 = new TraceStep(expr1, expr2, "meta-rule todo", "rule todo");
+            var ts1 = new TraceStep(expr1, expr2, null, "meta-rule todo", "rule todo");
             var ts1Expr = new TraceStepExpr(ts1);
-            var ts2 = new TraceStep(expr2, 2, "meta-rule todo", "rule todo");
+            var ts2 = new TraceStep(expr2, 2, null, "meta-rule todo", "rule todo");
             var ts2Expr = new TraceStepExpr(ts2);
             var lst = new List<TraceStepExpr>() { ts1Expr, ts2Expr };
             var tuple = new Tuple<object, object>("strategy2", lst);
@@ -138,9 +138,9 @@ namespace UserModeling
 
             // User Input, //2 steps trace 
             var expr3 = new Term(Expression.Add, new List<object> { 1, 2 });
-            var ts3 = new TraceStep(expr1, expr3, "meta-rule todo", "rule todo");
+            var ts3 = new TraceStep(expr1, expr3, null, "meta-rule todo", "rule todo");
             var ts3Expr = new TraceStepExpr(ts3);
-            var ts4 = new TraceStep(expr3, 2, "meta-rule todo", "rule todo");
+            var ts4 = new TraceStep(expr3, 2, null, "meta-rule todo", "rule todo");
             var ts4Expr = new TraceStepExpr(ts4);
             var lst2 = new List<TraceStepExpr>() { ts3Expr, ts4Expr };
 
