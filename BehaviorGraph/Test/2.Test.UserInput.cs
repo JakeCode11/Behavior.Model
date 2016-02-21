@@ -75,7 +75,6 @@ namespace UserModeling
             Assert.Null(node);
         }
 
-
         /*
         * Solving example : solve 1+1+1
         * 

@@ -45,9 +45,11 @@ namespace MathCog.UserModeling
         
         #endregion
 
-        #region External Properties
+        #region Static Properties
 
         public static bool TutorMode = true;
+
+        public static bool ReasoningOn = true;
 
         #endregion
 
@@ -114,7 +116,7 @@ namespace MathCog.UserModeling
 
         public bool InitProblem(int problemIndex)
         {
-            Reset();
+            //Reset();
             Reasoner.Instance.Reset();
             ProblemIndex = problemIndex;
             return LoadUserModel(ProblemIndex);

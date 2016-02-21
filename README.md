@@ -8,6 +8,12 @@ This library models student math problem solving behavior using <a href="http://
 ## Paper
 Coming Soon
 
+
+HCI.Reasoner2 is toward the latest version of tutoring system with out-scope problem selection.
+
+HCI.Reasoner is the version for the IUI 2016.
+
+
 ## License
 Copyright (c) 2015 Bo Kang
 <p align="justify">
