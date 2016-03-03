@@ -14,7 +14,9 @@
  * limitations under the License.
  *******************************************************************************/
 
-namespace UserModeling
+using UserModeling;
+
+namespace MathCog2.UserModeling
 {
     /// <summary>
     /// Math Problem Tutor Interpreter

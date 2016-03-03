@@ -875,139 +875,109 @@
 
     {
         "id": 61,
-        "problem": "Line A is perpendicular to the line 2y=4x+8 and passes through (-2,-8). Draw line A on the geometric coordinate canvas. Write the equation of line A on the algebraic canvas.",
+        "problem": "Line A is perpendicular to the line 2y = 4x + 8 and passes through the point (-2, -8). 1) Graph Line A on the geometric coordinate canvas. 2) Solve for the equation of line A on the algebraic canvas. You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Line A is", "interaction": "None" },
-            { "id": 2, "tag": "perpendicular", "interaction": "None" },
-            { "id": 3, "tag": "to the line", "interaction": "None" },
-            { "id": 4, "tag": "2y=4x+8", "interaction": "None" },
-            { "id": 5, "tag": "and passes through", "interaction": "None" },
-            { "id": 6, "tag": "(-2,-8)", "interaction": "None" },
-            { "id": 7, "tag": ".", "interaction": "None" },
-            { "id": 8, "tag": "Draw line A on the geometric coordinate canvas?", "interaction": "None" },
-            { "id": 9, "tag": "Write the equation of line A", "interaction": "None" },
-            { "id": 10, "tag": "on the algebraic canvas.", "interaction": "None" },
+            { "id": 1, "tag": "Line A is perpendicular to the line 2y = 4x + 8 and passes through the point (-2, -8). ", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph Line A on the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the equation of line A on the algebraic canvas. ", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
         ],
         "semantic": [
         ]
     },
     {
         "id": 62,
-        "problem": "Line C passes through the point (5,2). It is parallel to the line 4x+6y-12=0. Draw line C on the geometric coordinate canvas. Write the equation of line C on the algebraic canvas.",
+        "problem": "Line C passes through the point (5, 2). Line C is parallel to the line 4x+6y–12=0. 1) Graph Line C on the geometric coordinate canvas. 2) Solve for the equation of line C on the algebraic canvas. You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Line C passes through the point", "interaction": "None" },
-            { "id": 2, "tag": "(5,2)", "interaction": "None" },
-            { "id": 3, "tag": ".", "interaction": "None" },
-            { "id": 4, "tag": "It is", "interaction": "None" },
-            { "id": 5, "tag": "parallel", "interaction": "None" },
-            { "id": 6, "tag": "to the line", "interaction": "None" },
-            { "id": 7, "tag": "4x+6y-12=0", "interaction": "None" },
-            { "id": 8, "tag": ".", "interaction": "None" },
-            { "id": 9, "tag": "Draw line C on the geometric coordinate canvas.", "interaction": "None" },
-            { "id": 10, "tag": "Write the equation of line C on the algebraic canvas.", "interaction": "None" },
+            { "id": 1, "tag": "Line C passes through the point (5, 2). ", "interaction": "None" },
+            { "id": 2, "tag": "Line C is parallel to the line 4x+6y-12=0. ", "interaction": "None" },
+            { "id": 3, "tag": "1) Graph Line C on the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 4, "tag": "2) Solve for the equation of line C on the algebraic canvas. ", "interaction": "None" },
+            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
         "id": 63,
-        "problem": "Find the minimum distance between the point (1,-3) and the line y=-x+6. Draw this line, point, and the line segment between them onto the geometric coordinate canvas. Write the value of the distance, d, in the algebraic canvas. Round your answer to two decimal numbers.",
+        "problem": "Find the minimum distance between the point (1,-3) and the line y=-x+6. 1) Graph this line, point (1,-3), and the line segment between them onto the geometric coordinate canvas. 2) Solve for the value of the distance, d, in the algebraic canvas. Round your answer to two decimal places. You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Find the minimum distance between the point", "interaction": "None" },
-            { "id": 2, "tag": "(1,-3)", "interaction": "None" },
-            { "id": 3, "tag": "and the line", "interaction": "None" },
-            { "id": 4, "tag": "y=-x+6", "interaction": "None" },
-            { "id": 5, "tag": ".", "interaction": "None" },
-            { "id": 6, "tag": "Draw this line, point, and the line segment", "interaction": "None" },
-            { "id": 7, "tag": "between them onto the geometric coordinate canvas.", "interaction": "None" },
-            { "id": 8, "tag": "Write the value of the distance, d, in the algebraic canvas.", "interaction": "None" },
-            { "id": 9, "tag": "Round your answer to two decimal numbers.", "interaction": "None" },
+            { "id": 1, "tag": "Find the minimum distance between the point (1,-3) and the line y=-x+6. ", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph this line, point (1,-3), and the line segment between them onto the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the value of the distance, d, in the algebraic canvas. ", "interaction": "None" },
+            { "id": 4, "tag": "Round your answer to two decimal places. ", "interaction": "None" },
+            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
         "id": 64,
-        "problem": "Circle A is centered about the origin and has a radius of 5. Line B is tangent to circle A at the point (-3,4). Draw circle and line on the geometric coordinate canvas. What is the equation of the line that is tangent to circle A at the point (-3,4)?",
+        "problem": "Circle A is centered about the origin (0, 0) and has a radius of 5. Line B is tangent to circle A at the point (-3, 4). 1) Graph Circle A and Line B on the geometric coordinate canvas. 2) Solve for the equation for the line that is tangent to circle A at the point (-3, 4). You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Circle A is centered about the origin", "interaction": "None" },
-            { "id": 2, "tag": "and has a radius of 5.", "interaction": "None" },
-            { "id": 3, "tag": "Line B is tangent to circle A", "interaction": "None" },
-            { "id": 4, "tag": "at the point (-3,4).", "interaction": "None" },
-            { "id": 5, "tag": "Draw circle and line on the geometric coordinate canvas.", "interaction": "None" },
-            { "id": 6, "tag": "What is the equation of the line", "interaction": "None" },
-            { "id": 7, "tag": "that is tangent to circle A at the point (-3,4)?", "interaction": "None" }
+            { "id": 1, "tag": "Circle A is centered about the origin (0, 0) and has a radius of 5. Line B is tangent to circle A at the point (-3, 4).", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph Circle A and Line B on the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the equation for the line that is tangent to circle A at the point (-3, 4). ", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
-
     {
         "id": 65,
-        "problem": "The equation of line A is 2y-4x=10. Line B is perpendicular to line A. Write the equation of line B, given that it passes through the point (1,2). Graph this equation.",
+        "problem": "Line A is perpendicular to the line 2y-4x=10 and passes through the point (1,2). 1) Graph Line A on the geometric coordinate canvas. 2) Solve for the equation of line A on the algebraic canvas. You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "The equation of line A is", "interaction": "None" },
-            { "id": 2, "tag": "2y-4x=10", "interaction": "None" },
-            { "id": 3, "tag": ".", "interaction": "None" },
-            { "id": 4, "tag": "Line B is perpendicular to line A.", "interaction": "None" },
-            { "id": 5, "tag": "Write the equation of line B,", "interaction": "None" },
-            { "id": 6, "tag": "given that it passes through the point (1,2).", "interaction": "None" },
-            { "id": 7, "tag": "Graph this equation.", "interaction": "None" }
+            { "id": 1, "tag": "Line A is perpendicular to the line 2y-4x=10 and passes through the point (1,2). ", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph Line A on the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the equation of line A on the algebraic canvas. ", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
         ],
         "semantic": [
         ]
     },
     {
         "id": 66,
-        "problem": "Line D has the same slope as the line y=2x-6. Line D passes through the point (0,5). Draw line D on the geometric coordinate canvas. Write the equation of line D on the algebraic canvas.",
+        "problem": "Line C passes through the point (0,2). Line C is parallel to the line 2y=4x+10. 1) Graph Line C on the geometric coordinate canvas. 2) Solve for the equation of line C on the algebraic canvas. You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Line D has the same slope as the line", "interaction": "None" },
-            { "id": 2, "tag": "y=2x-6", "interaction": "None" },
-            { "id": 3, "tag": ".", "interaction": "None" },
-            { "id": 4, "tag": "Line D passes through the point (0,5).", "interaction": "None" },
-            { "id": 5, "tag": "Draw line D on the geometric coordinate canvas.", "interaction": "None" },
-            { "id": 6, "tag": "Write the equation of line D", "interaction": "None" },
-            { "id": 7, "tag": "on the algebraic canvas.", "interaction": "None" }
+            { "id": 1, "tag": "Line C passes through the point (0,2). ", "interaction": "None" },
+            { "id": 2, "tag": "Line C is parallel to the line 2y=4x+10. ", "interaction": "None" },
+            { "id": 3, "tag": "1) Graph Line C on the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 4, "tag": "2) Solve for the equation of line C on the algebraic canvas. ", "interaction": "None" },
+            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
         "id": 67,
-        "problem": "Find the distance between the point (-2,-4) and the line 3y=-x+6. Draw this line, point, and the line segment between them onto the geometric coordinate canvas. Write the value of the distance, d, in the algebraic canvas. Round your answer to two decimal numbers.",
+        "problem": "Find the minimum distance between the point (-2,-4) and the line 3y = -x + 6. 1) Graph this line, point (-2, -4), and the line segment between them onto the geometric coordinate canvas. 2) Solve for the value of the distance, d, in the algebraic canvas. Round your answer to two decimal places. You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Find the distance between the point", "interaction": "None" },
-            { "id": 2, "tag": "(-2,-4)", "interaction": "None" },
-            { "id": 3, "tag": "and the line", "interaction": "None" },
-            { "id": 4, "tag": "3y=-x+6", "interaction": "None" },
-            { "id": 5, "tag": ".", "interaction": "None" },
-            { "id": 6, "tag": "Draw this line, point, and the line segment between them", "interaction": "None" },
-            { "id": 7, "tag": "onto the geometric coordinate canvas.", "interaction": "None" },
-            { "id": 8, "tag": "Write the value of the distance, d, in the algebraic canvas.", "interaction": "None" },
-            { "id": 9, "tag": "Round your answer to two decimal numbers.", "interaction": "None" }
+            { "id": 1, "tag": "Find the minimum distance between the point (-2,-4) and the line 3y=-x+6. ", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph this line, point, and the line segment between them onto the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the value of the distance, d, in the algebraic canvas. ", "interaction": "None" },
+            { "id": 4, "tag": "Round your answer to two decimal places. ", "interaction": "None" },
+            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
         "id": 68,
-        "problem": "Circle A is described by the equation (x-2)^2+(y-2)^2 = 1. What is the equation of a line that is tangent to this circle at the point (2,3)? Draw this circle and the tangent line on the geometric coordinate canvas.",
+        "problem": "Circle A is centered about the origin (2, 2) and has a radius of 5. Line B is tangent to circle A at the point (5, 6). 1) Graph Circle A and Line B on the geometric coordinate canvas. 2) Solve for the equation for the line that is tangent to circle A at the point (5, 6). You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Circle A is described by the equation", "interaction": "None" },
-            { "id": 2, "tag": "(x-2)^2+(y-2)^2 = 1", "interaction": "None" },
-            { "id": 3, "tag": ".", "interaction": "None" },
-            { "id": 4, "tag": "What is the equation of a line that is tangent to this circle", "interaction": "None" },
-            { "id": 5, "tag": "at the point (2,3)?", "interaction": "None" },
-            { "id": 6, "tag": "Draw this circle and the tangent line", "interaction": "None" },
-            { "id": 7, "tag": "on the geometric coordinate canvas.", "interaction": "None" }
+            { "id": 1, "tag": "Circle A is centered about the origin (2, 2) and has a radius of 5. ", "interaction": "None" },
+            { "id": 2, "tag": "Line B is tangent to circle A at the point (5, 6). ", "interaction": "None" },
+            { "id": 3, "tag": "1) Graph Circle A and Line B on the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 4, "tag": "2) Solve for the equation for the line that is tangent to circle A at the point (5, 6). ", "interaction": "None" },
+            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1081,7 +1051,104 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Mason is standing on the seashore. He believes that if he makes a wish and throws a seashell back into the ocean, his wish will come true.", "interaction": "None" },
             { "id": 2, "tag": "Mason is standing at the origin of a coordinate plane and the shoreline is represented by the graph of the line y=1.5x+13.", "interaction": "None" },
-            { "id": 3, "tag": "Each unit represents 1 meter. How far does Mason need to be able to throw the seashell to throw one into the ocean? Round your answer to the nearest centimeter.", "interaction": "None"},
+            { "id": 3, "tag": "Each unit represents 1 meter. How far does Mason need to be able to throw the seashell to throw one into the ocean? Round your answer to the nearest centimeter.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 200,
+        "problem": "Practice: Write math expressions or equations on the algebraic canvas. After that, erase what you wrote.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice: Write math expressions or equations on the algebraic canvas.", "interaction": "None" },
+            { "id": 2, "tag": "After that, erase what you wrote.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 201,
+        "problem": "Practice: Draw points, lines and circles on the geometric canvas. For the line drawing, practice on three different conditions: draw a line without specifying any two points, a line passes an existing point, a line passes two existing point. Draw a line segment passing through two points. Move the point, the line and the circle. Change the radius or the circle, the center of the circle. Erase what you have drawn.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice: Draw points, lines and circles on the geometric canvas. ", "interaction": "None" },
+            { "id": 2, "tag": "For the line drawing, practice on three different conditions: draw a line without specifying any two points, a line passes an existing point, a line passes two existing point. ", "interaction": "None" },
+            { "id": 3, "tag": "Draw a line segment passing through two points. ", "interaction": "None" },
+            { "id": 4, "tag": "Move the point, the line and the circle. Change the radius or the circle, the center of the circle. ", "interaction": "None" },            
+            { "id": 5, "tag": "Erase what you have drawn. ", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 202,
+        "problem": "Practice: Draw two lines which are parallel to each other. Given a point and a line, draw the line pass through the point which is parallel to the existing line. Move the lines and erase them. Draw two lines which are perpendicular to each other. Given a point and a line, draw the line pass  through the point which is perpendicular to the existing line. Move the lines and erase them.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice: Draw two lines which are parallel to each other. Given a point and a line, draw the line pass through the point which is parallel to the existing line. Move the lines and erase them. ", "interaction": "None" },
+            { "id": 2, "tag": "Draw two lines which are perpendicular to each other. Given a point and a line, draw the line pass  through the point which is perpendicular to the existing line. Move the lines and erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 203,
+        "problem": "Practice: Draw a line and a circle which are tangent to each other. First, draw a circle, then draw a point on the circle. After that, draw a line passes through the center of the circle and the point on the circle. Last, draw a line perpendicular to the previous drawn line, which passes through the point on the circle. Move your drawings and erase them.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice: Draw a line and a circle which are tangent to each other. ", "interaction": "None" },
+            { "id": 2, "tag": "First, draw a circle, then draw a point on the circle. After that, draw a line passes through the center of the circle and the point on the circle. ", "interaction": "None" },
+            { "id": 3, "tag": "Last, draw a line perpendicular to the previous drawn line, which passes through the point on the circle. Move your drawings and erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 300,
+        "problem": "Practice: Write math expressions or equations on the algebraic canvas. After that, erase what you wrote.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice: Write math expressions or equations on the algebraic canvas.", "interaction": "None" },
+            { "id": 2, "tag": "After that, erase what you wrote.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 301,
+        "problem": "Practice: Draw points, lines and circles on the geometric canvas. For the line drawing, practice on three different conditions: draw a line without specifying any two points, a line passes an existing point, a line passes two existing point. Draw a line segment passing through two points. Move the point, the line and the circle. Change the radius or the circle, the center of the circle. Erase what you have drawn.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice: Draw points, lines and circles on the geometric canvas. ", "interaction": "None" },
+            { "id": 2, "tag": "For the line drawing, practice on three different conditions: draw a line without specifying any two points, a line passes an existing point, a line passes two existing point. ", "interaction": "None" },
+            { "id": 3, "tag": "Draw a line segment passing through two points. ", "interaction": "None" },
+            { "id": 4, "tag": "Move the point, the line and the circle. Change the radius or the circle, the center of the circle. ", "interaction": "None" },            
+            { "id": 5, "tag": "Erase what you have drawn. ", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 302,
+        "problem": "Practice: Draw two lines which are parallel between each other. Draw two lines that are perpendicular to each other. Erase them.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice: Draw two lines which are parallel between each other.", "interaction": "None" },
+            { "id": 2, "tag": "Draw two lines that are perpendicular to each other.", "interaction": "None" },
+            { "id": 3, "tag": "Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+       "id": 303,
+       "problem": "Practice: Draw a line and a circle which are tangent to each other. First, draw a circle, then draw a point on the circle. After that, draw a line passes through the center of the circle and the point on the circle. Last, draw a line perpendicular to the previous drawn line, which passes through the point on the circle. Move your drawings and erase them.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice: Draw a line and a circle which are tangent to each other. ", "interaction": "None" },
+            { "id": 2, "tag": "First, draw a circle, then draw a point on the circle. After that, draw a line passes through the center of the circle and the point on the circle. ", "interaction": "None" },
+            { "id": 3, "tag": "Last, draw a line perpendicular to the previous drawn line, which passes through the point on the circle. Move your drawings and erase them.", "interaction": "None" },
         ],
         "semantic": [
         ]

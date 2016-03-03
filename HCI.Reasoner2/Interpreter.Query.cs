@@ -1,4 +1,4 @@
-﻿namespace UserModeling
+﻿namespace MathCog2.UserModeling
 {
     public partial class MpTutorInterpreter
     {
