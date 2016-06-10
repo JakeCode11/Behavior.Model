@@ -229,7 +229,8 @@ namespace MathCog.UserModeling
         {
             msg = null;
             output = null;
-            if (UserGraph.Nodes.Count == 0 || UserGraph.Nodes.Count == 1)
+            if (UserGraph == null) return QueryFeedbackState.QueryFailed;
+            if ( UserGraph.Nodes.Count == 0 || UserGraph.Nodes.Count == 1)
             {
                 msg = "TODO";
                 return QueryFeedbackState.QueryFailed;

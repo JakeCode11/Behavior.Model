@@ -891,11 +891,10 @@
         "problem": "Line C passes through the point (5, 2). Line C is parallel to the line 4x+6y–12=0. 1) Graph Line C on the geometric coordinate canvas. 2) Solve for the equation of line C on the algebraic canvas. You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Line C passes through the point (5, 2). ", "interaction": "None" },
-            { "id": 2, "tag": "Line C is parallel to the line 4x+6y-12=0. ", "interaction": "None" },
-            { "id": 3, "tag": "1) Graph Line C on the geometric coordinate canvas. ", "interaction": "None" },
-            { "id": 4, "tag": "2) Solve for the equation of line C on the algebraic canvas. ", "interaction": "None" },
-            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
+            { "id": 1, "tag": "Line C passes through the point (5, 2). Line C is parallel to the line 4x+6y-12=0.", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph Line C on the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the equation of line C on the algebraic canvas. ", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
         ],
         "semantic": [
         ]
@@ -906,10 +905,9 @@
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Find the minimum distance between the point (1,-3) and the line y=-x+6. ", "interaction": "None" },
-            { "id": 2, "tag": "1) Graph this line, point (1,-3), and the line segment between them onto the geometric coordinate canvas. ", "interaction": "None" },
-            { "id": 3, "tag": "2) Solve for the value of the distance, d, in the algebraic canvas. ", "interaction": "None" },
-            { "id": 4, "tag": "Round your answer to two decimal places. ", "interaction": "None" },
-            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph this line, point (1,-3), and the distance (either line or line segment) between them onto the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the value of the distance, d, in the algebraic canvas. Round your answer to two decimal places.", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
         ],
         "semantic": [
         ]
@@ -945,11 +943,10 @@
         "problem": "Line C passes through the point (0,2). Line C is parallel to the line 2y=4x+10. 1) Graph Line C on the geometric coordinate canvas. 2) Solve for the equation of line C on the algebraic canvas. You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Line C passes through the point (0,2). ", "interaction": "None" },
-            { "id": 2, "tag": "Line C is parallel to the line 2y=4x+10. ", "interaction": "None" },
-            { "id": 3, "tag": "1) Graph Line C on the geometric coordinate canvas. ", "interaction": "None" },
-            { "id": 4, "tag": "2) Solve for the equation of line C on the algebraic canvas. ", "interaction": "None" },
-            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
+            { "id": 1, "tag": "Line C passes through the point (0,2). Line C is parallel to the line 2y=4x+10.", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph Line C on the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the equation of line C on the algebraic canvas. ", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
         ],
         "semantic": [
         ]
@@ -960,10 +957,9 @@
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Find the minimum distance between the point (-2,-4) and the line 3y=-x+6. ", "interaction": "None" },
-            { "id": 2, "tag": "1) Graph this line, point, and the line segment between them onto the geometric coordinate canvas. ", "interaction": "None" },
-            { "id": 3, "tag": "2) Solve for the value of the distance, d, in the algebraic canvas. ", "interaction": "None" },
-            { "id": 4, "tag": "Round your answer to two decimal places. ", "interaction": "None" },
-            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph this line, point, and the distance (either line or line segment) between them onto the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the value of the distance, d, in the algebraic canvas. Round your answer to two decimal places.", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
         ],
         "semantic": [
         ]
@@ -973,16 +969,110 @@
         "problem": "Circle A is centered about the origin (2, 2) and has a radius of 5. Line B is tangent to circle A at the point (5, 6). 1) Graph Circle A and Line B on the geometric coordinate canvas. 2) Solve for the equation for the line that is tangent to circle A at the point (5, 6). You do not have to complete the above steps in any particular order.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Circle A is centered about the origin (2, 2) and has a radius of 5. ", "interaction": "None" },
-            { "id": 2, "tag": "Line B is tangent to circle A at the point (5, 6). ", "interaction": "None" },
-            { "id": 3, "tag": "1) Graph Circle A and Line B on the geometric coordinate canvas. ", "interaction": "None" },
-            { "id": 4, "tag": "2) Solve for the equation for the line that is tangent to circle A at the point (5, 6). ", "interaction": "None" },
-            { "id": 5, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
+            { "id": 1, "tag": "Circle A is centered about the origin (2, 2) and has a radius of 5. Line B is tangent to circle A at the point (5, 6).", "interaction": "None" },
+            { "id": 2, "tag": "1) Graph Circle A and Line B on the geometric coordinate canvas. ", "interaction": "None" },
+            { "id": 3, "tag": "2) Solve for the equation for the line that is tangent to circle A at the point (5, 6). ", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
         ],
         "semantic": [
         ]
     },
-
+    {
+        "id": 71,
+        "problem": "As a construction manager, you are asked to build a new straight road, which crosses the point (0,0). There is another straight road already built, which can be expressed as y=2x+1. You are asked to build your road such that it will never cross this other road. Write the equation of the new straight road in the slope-intercept form.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "As a construction manager, you are asked to build a new straight road, which crosses the point (0,0). There is another straight road already built, which can be expressed as y=2x+1.", "interaction": "None" },
+            { "id": 2, "tag": "You are asked to build your road such that it will never cross this other road.", "interaction": "None" },
+            { "id": 3, "tag": "Write the equation of the new straight road in the slope-intercept form.", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 72,
+        "problem": "The class of math is mapped on a coordinate grid with the origin being at the center point of the hall. Mary's seat is located at the point (-4, 7) and Betty's seat is located at (-1, c). The distance between Mary's seat and Betty's seat is 5, what is the value of c? ",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "The class of math is mapped on a coordinate grid with the origin being at the center point of the hall.", "interaction": "None" },
+            { "id": 2, "tag": "Mary's seat is located at the point (-4, 7) and Betty's seat is located at (-1, c).", "interaction": "None" },
+            { "id": 3, "tag": "The distance between Mary's seat and Betty's seat is 5, what is the value of c?", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 73,
+        "problem": "When put on a coordinate plane, 1st street has the equation y = -(1/3)x-5. 2nd street is perpendicular to 1st street and goes through the point (5, 4). Write the equation for 2nd street in slope-intercept form.",
+        "type": "AlgebraGeoemtry",
+         "syntaxTagging": [
+            { "id": 1, "tag": "When put on a coordinate plane, 1st street has the equation y = -(1/3)x-5.", "interaction": "None" },
+            { "id": 2, "tag": "2nd street is perpendicular to 1st street and goes through the point (5, 4).", "interaction": "None" },
+            { "id": 3, "tag": "Write the equation for 2nd street in slope-intercept form.", "interaction": "None" },            
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 74,
+        "problem": "To get to school, Chad must either walk around a circular lake or canoe across it. The diameter of the lake is 2 miles. How much shorter is his trip if he canoes across the lake rather than walks around it? For the value of pi, use 3.14.",
+        "type": "AlgebraGeoemtry",
+         "syntaxTagging": [
+            { "id": 1, "tag": "To get to school, Chad must either walk around a circular lake or canoe across it.", "interaction": "None" },
+            { "id": 2, "tag": "The diameter of the lake is 2 miles. How much shorter is his trip if he canoes across the lake rather than walks around it?", "interaction": "None" },
+            { "id": 3, "tag": "For the value of pi, use 3.14.", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 75,
+        "problem": "When put on a coordinate plane, Main Street has the equation y = 5x-3. Park Street is parallel to Main Street and goes through the point (1, 6). Write the equation for Park Street in slope-intercept form.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "When put on a coordinate plane, Main Street has the equation y = 5x-3.", "interaction": "None" },
+            { "id": 2, "tag": "Park Street is parallel to Main Street and goes through the point (1, 6).", "interaction": "None" },
+            { "id": 3, "tag": "Write the equation for Park Street in slope-intercept form.", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 76,
+        "problem": "Tom is building a bench in a nook where his wall recedes. The depression starts on the left side at point L (1, 3) and goes to the right ending at point R (5, b). The distance between L and R is 5. What is the value of b?",
+        "type": "AlgebraGeoemtry",
+         "syntaxTagging": [
+            { "id": 1, "tag": "Tom is building a bench in a nook where his wall recedes.", "interaction": "None" },
+            { "id": 2, "tag": "The depression starts on the left side at point L (1, 3) and goes to the right ending at point R (5, b).", "interaction": "None" },
+            { "id": 3, "tag": "The distance between L and R is 5. What is the value of b?", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 77,
+        "problem": "Albert needs to set up a light perpendicular to a stage. He know the equation for the stage is 2x-3y=9. Also, he knows the stage goes through a point (-4, -1). Give the equation of line in the slope-intercept form if it is perpendicular to the stage.",
+        "type": "AlgebraGeoemtry",
+         "syntaxTagging": [
+            { "id": 1, "tag": "Albert needs to set up a light perpendicular to a stage. He know the equation for the stage is 2x-3y=9.", "interaction": "None" },
+            { "id": 2, "tag": "Also, he knows the stage goes through a point (-4, -1).", "interaction": "None" },
+            { "id": 3, "tag": "Give the equation of line in the slope-intercept form if it is perpendicular to the stage.", "interaction": "None" }            
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 78,
+        "problem": "A dog is attached to a stake with a leash. It could reach 9 feet from the stake in any direction. It is currently sitting 9 feet away from the stake, and wants to get the chewing toy exactly 18 feet away. Using 3.14 for pi, how much shorter will its distance be if it walks straight across rather than walking around ?",
+        "type": "AlgebraGeoemtry",
+         "syntaxTagging": [
+            { "id": 1, "tag": "A dog is attached to a stake with a leash. It could reach 9 feet from the stake in any direction.", "interaction": "None" },
+            { "id": 2, "tag": "It is currently sitting 9 feet away from the stake, and wants to get the chewing toy exactly 18 feet away.", "interaction": "None" },
+            { "id": 3, "tag": "Using 3.14 for pi, how much shorter will its distance be if it walks straight across rather than walking around ?", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
     {
         "id": 96,
         "problem": "Simplify the expression x+2-1?",
@@ -1056,99 +1146,321 @@
         "semantic": [
         ]
     },
+
+
     {
         "id": 200,
-        "problem": "Practice: Write math expressions or equations on the algebraic canvas. After that, erase what you wrote.",
+        "problem": "Practice: Write math expressions or equations on the algebraic canvas.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Practice: Write math expressions or equations on the algebraic canvas.", "interaction": "None" },
-            { "id": 2, "tag": "After that, erase what you wrote.", "interaction": "None" },
+            { "id": 2, "tag": "Practice: Learn how to erase the equations.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
         "id": 201,
-        "problem": "Practice: Draw points, lines and circles on the geometric canvas. For the line drawing, practice on three different conditions: draw a line without specifying any two points, a line passes an existing point, a line passes two existing point. Draw a line segment passing through two points. Move the point, the line and the circle. Change the radius or the circle, the center of the circle. Erase what you have drawn.",
+        "problem": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Practice: Draw points, lines and circles on the geometric canvas. ", "interaction": "None" },
-            { "id": 2, "tag": "For the line drawing, practice on three different conditions: draw a line without specifying any two points, a line passes an existing point, a line passes two existing point. ", "interaction": "None" },
-            { "id": 3, "tag": "Draw a line segment passing through two points. ", "interaction": "None" },
-            { "id": 4, "tag": "Move the point, the line and the circle. Change the radius or the circle, the center of the circle. ", "interaction": "None" },            
-            { "id": 5, "tag": "Erase what you have drawn. ", "interaction": "None" },
+            { "id": 1, "tag": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
         "id": 202,
-        "problem": "Practice: Draw two lines which are parallel to each other. Given a point and a line, draw the line pass through the point which is parallel to the existing line. Move the lines and erase them. Draw two lines which are perpendicular to each other. Given a point and a line, draw the line pass  through the point which is perpendicular to the existing line. Move the lines and erase them.",
+        "problem": "Practice 2 (Point): 1.Draw a point. 2.Move the point to (3,0).",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Practice: Draw two lines which are parallel to each other. Given a point and a line, draw the line pass through the point which is parallel to the existing line. Move the lines and erase them. ", "interaction": "None" },
-            { "id": 2, "tag": "Draw two lines which are perpendicular to each other. Given a point and a line, draw the line pass  through the point which is perpendicular to the existing line. Move the lines and erase them.", "interaction": "None" },
+            { "id": 1, "tag": "Practice 2 (Point): 1.Draw a point.", "interaction": "None" },
+            { "id": 2, "tag": "2.Move the point to (3,0).", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase the point.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
         "id": 203,
-        "problem": "Practice: Draw a line and a circle which are tangent to each other. First, draw a circle, then draw a point on the circle. After that, draw a line passes through the center of the circle and the point on the circle. Last, draw a line perpendicular to the previous drawn line, which passes through the point on the circle. Move your drawings and erase them.",
+        "problem": "Practice 3 (Line): 1.Draw a line without pre-existing points. 2.Move the line to pass through (0,0) and (5,1).",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Practice: Draw a line and a circle which are tangent to each other. ", "interaction": "None" },
-            { "id": 2, "tag": "First, draw a circle, then draw a point on the circle. After that, draw a line passes through the center of the circle and the point on the circle. ", "interaction": "None" },
-            { "id": 3, "tag": "Last, draw a line perpendicular to the previous drawn line, which passes through the point on the circle. Move your drawings and erase them.", "interaction": "None" },
+            { "id": 1, "tag": "Practice 3 (Line): 1.Draw a line without pre-existing points.", "interaction": "None" },
+            { "id": 2, "tag": "2.Move the line to pass through (0,0) and (5,1).", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
+        "id": 204,
+        "problem": "Practice 4 (Line): 1.Draw a point (2,0). 2.Draw a line passing through this point.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 4 (Line): 1.Draw a point (2,0)", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a line passing through this point.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 205,
+        "problem": "Practice 5 (Line): 1.Draw a point (-1,3). 2.Draw a point (2,-5). 3.Draw a line through these two points.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 5 (Line): 1.Draw a point (-1,3)", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a point (2,-5).", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw a line through these two points.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 206,
+        "problem": "Practice 6 (Line Segment): 1. Draw a point (1,-3). 2.Draw a point (-2,5). 3.Draw a line segment through these two points.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 6 (Line Segment): 1.Draw a point (1,-3).", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a point (-2,5).", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw a line segment through these two points.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 207,
+        "problem": "Practice 7 (Circle): 1.Draw a circle with the radius of 4. 2.Move the circle center to (4,4).",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 7 (Circle): 1.Draw a circle with the radius of 4.", "interaction": "None" },
+            { "id": 2, "tag": "2.Move the circle center to (4,4).", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 208,
+        "problem": "Practice 8 (Two Lines Parallel): 1.Draw a line without pre-existing points. 2.Draw another line passing which is paralell to the first line.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 8 (Two Lines Parallel): 1.Draw a line without pre-existing points", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw another line passing which is paralell to the first line.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 209,
+        "problem": "Practice 9 (Two Lines Parallel): 1.Draw a line without pre-existing points. 2.Draw a point not on that line. 3.Draw another line passing through that point and paralell to the first line.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 9 (Two Lines Parallel): 1.Draw a line without pre-existing points", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a point not on that line.", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw another line passing through that point and paralell to the first line.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 210,
+        "problem": "Practice 10 (Two Lines Perpendicular): 1.Draw a line without pre-existing points. 2.Draw another line which is perpendicular to the first line.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 10 (Two Lines Perpendicular): 1.Draw a line without pre-existing points", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw another line which is perpendicular to the first line.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 211,
+        "problem": "Practice 11 (Two Lines Perpendicular): 1.Draw a line without pre-existing points. 2.Draw a point not on that line. 3.Draw another line passing through that point and perpendicular to the first line.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 11 (Two Lines Perpendicular): 1.Draw a line without pre-existing points. ", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a point not on that line.", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw another line passing through that point and perpendicular to the first line.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 212,
+        "problem": "Practice 12 (Line tangent to Circle): 1.Draw a circle. 2.Draw a point on the circle. 3.Draw a line passes through the center of the circle and the point on the circle. 4.Draw a line perpendicular to the previous drawn line, which passes through the point on the circle.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 12 (Line tangent to Circle): 1.Draw a circle.", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a line passes through the center of the circle and the point on the circle.", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw a line perpendicular to the previous drawn line, which passes through the point on the circle.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+  
+    {
         "id": 300,
-        "problem": "Practice: Write math expressions or equations on the algebraic canvas. After that, erase what you wrote.",
+        "problem": "Practice: Write math expressions or equations on the algebraic canvas.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Practice: Write math expressions or equations on the algebraic canvas.", "interaction": "None" },
-            { "id": 2, "tag": "After that, erase what you wrote.", "interaction": "None" },
+            { "id": 2, "tag": "Practice: Learn how to erase the equations.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
         "id": 301,
-        "problem": "Practice: Draw points, lines and circles on the geometric canvas. For the line drawing, practice on three different conditions: draw a line without specifying any two points, a line passes an existing point, a line passes two existing point. Draw a line segment passing through two points. Move the point, the line and the circle. Change the radius or the circle, the center of the circle. Erase what you have drawn.",
+        "problem": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Practice: Draw points, lines and circles on the geometric canvas. ", "interaction": "None" },
-            { "id": 2, "tag": "For the line drawing, practice on three different conditions: draw a line without specifying any two points, a line passes an existing point, a line passes two existing point. ", "interaction": "None" },
-            { "id": 3, "tag": "Draw a line segment passing through two points. ", "interaction": "None" },
-            { "id": 4, "tag": "Move the point, the line and the circle. Change the radius or the circle, the center of the circle. ", "interaction": "None" },            
-            { "id": 5, "tag": "Erase what you have drawn. ", "interaction": "None" },
+            { "id": 1, "tag": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
         "id": 302,
-        "problem": "Practice: Draw two lines which are parallel between each other. Draw two lines that are perpendicular to each other. Erase them.",
+        "problem": "Practice 2 (Point): 1.Draw a point. 2.Move the point to (3,0).",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Practice: Draw two lines which are parallel between each other.", "interaction": "None" },
-            { "id": 2, "tag": "Draw two lines that are perpendicular to each other.", "interaction": "None" },
-            { "id": 3, "tag": "Erase them.", "interaction": "None" },
+            { "id": 1, "tag": "Practice 2 (Point): 1.Draw a point.", "interaction": "None" },
+            { "id": 2, "tag": "2.Move the point to (3,0).", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
         ],
         "semantic": [
         ]
     },
     {
-       "id": 303,
-       "problem": "Practice: Draw a line and a circle which are tangent to each other. First, draw a circle, then draw a point on the circle. After that, draw a line passes through the center of the circle and the point on the circle. Last, draw a line perpendicular to the previous drawn line, which passes through the point on the circle. Move your drawings and erase them.",
+        "id": 303,
+        "problem": "Practice 3 (Line): 1.Draw a line without pre-existing points. 2.Move the line to pass through (0,0) and (5,1).",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Practice: Draw a line and a circle which are tangent to each other. ", "interaction": "None" },
-            { "id": 2, "tag": "First, draw a circle, then draw a point on the circle. After that, draw a line passes through the center of the circle and the point on the circle. ", "interaction": "None" },
-            { "id": 3, "tag": "Last, draw a line perpendicular to the previous drawn line, which passes through the point on the circle. Move your drawings and erase them.", "interaction": "None" },
+            { "id": 1, "tag": "Practice 3 (Line): 1.Draw a line without pre-existing points.", "interaction": "None" },
+            { "id": 2, "tag": "2.Move the line to pass through (0,0) and (5,1).", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 304,
+        "problem": "Practice 4 (Line): 1.Draw a point (2,0). 2.Draw a line passing through this point. 3.Erase the point and line.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 4 (Line): 1.Draw a point (2,0)", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a line passing through this point.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 305,
+        "problem": "Practice 5 (Line): 1.Draw a point (-1,3). 2.Draw a point (2,-5). 3.Draw a line through these two points.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 5 (Line): 1.Draw a point (-1,3)", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a point (2,-5).", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw a line through these two points.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 306,
+        "problem": "Practice 6 (Line Segment): 1. Draw a point (1,-3). 2.Draw a point (-2,5). 3.Draw a line segment through these two points.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 6 (Line Segment): 1.Draw a point (1,-3).", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a point (-2,5).", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw a line segment through these two points.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 307,
+        "problem": "Practice 7 (Circle): 1.Draw a circle with the radius of 4. 2.Move the circle center to (4,4).",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 7 (Circle): 1.Draw a circle with the radius of 4.", "interaction": "None" },
+            { "id": 2, "tag": "2.Move the circle center to (4,4).", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 308,
+        "problem": "Practice 8 (Two Lines Parallel): 1.Draw a line without pre-existing points. 2.Draw another line passing which is paralell to the first line.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 8 (Two Lines Parallel): 1.Draw a line without pre-existing points", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw another line passing which is paralell to the first line.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 309,
+        "problem": "Practice 9 (Two Lines Parallel): 1.Draw a line without pre-existing points. 2.Draw a point not on that line. 3.Draw another line passing through that point and paralell to the first line.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 9 (Two Lines Parallel): 1.Draw a line without pre-existing points", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a point not on that line.", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw another line passing through that point and paralell to the first line.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 310,
+        "problem": "Practice 10 (Two Lines Perpendicular): 1.Draw a line without pre-existing points. 2.Draw another line which is perpendicular to the first line.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 10 (Two Lines Perpendicular): 1.Draw a line without pre-existing points", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw another line which is perpendicular to the first line.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 311,
+        "problem": "Practice 11 (Two Lines Perpendicular): 1.Draw a line without pre-existing points. 2.Draw a point not on that line. 3.Draw another line passing through that point and perpendicular to the first line.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 11 (Two Lines Perpendicular): 1.Draw a line without pre-existing points. ", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a point not on that line.", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw another line passing through that point and perpendicular to the first line.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 312,
+        "problem": "Practice 12 (Line tangent to Circle): 1.Draw a circle. 2.Draw a point on the circle. 3.Draw a line passes through the center of the circle and the point on the circle. 4.Draw a line perpendicular to the previous drawn line, which passes through the point on the circle.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice 12 (Line tangent to Circle): 1.Draw a circle.", "interaction": "None" },
+            { "id": 2, "tag": "2.Draw a line passes through the center of the circle and the point on the circle.", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw a line perpendicular to the previous drawn line, which passes through the point on the circle.", "interaction": "None" },            
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
         ],
         "semantic": [
         ]
