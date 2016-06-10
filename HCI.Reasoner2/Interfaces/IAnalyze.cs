@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace UserModeling
+﻿namespace MathCog2.UserModeling
 {
     /// <summary>
     /// Student Modeling and Analysis

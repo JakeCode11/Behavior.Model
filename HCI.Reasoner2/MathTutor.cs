@@ -14,31 +14,32 @@
  * limitations under the License.
  *******************************************************************************/
 
-namespace UserModeling
-{
-    using System.Collections.Generic;
+using System.Collections.Generic;
+using UserModeling;
 
-    public class MathTutor : ISelect, IAnalyze
+namespace MathCog2.UserModeling
+{
+    public class MathTutorEngine : ISelect, IAnalyze
     {
         //Record a list of Tutored Problem
         public List<MpTutorInterpreter> TutoredProblems { get; set; }
         public MpTutorInterpreter CurrentTutorInterp { get; set; }
 
-        private static MathTutor _instance;
+        private static MathTutorEngine _instance;
 
-        public static MathTutor Instance
+        public static MathTutorEngine Instance
         {
             get
             {
                 if (_instance == null)
                 {
-                    _instance = new MathTutor();
+                    _instance = new MathTutorEngine();
                 }
                 return _instance;
             }
         }
 
-        private MathTutor()
+        private MathTutorEngine()
         {
             TutoredProblems = new List<MpTutorInterpreter>();
         }

@@ -15,8 +15,9 @@
  *******************************************************************************/
 
 using Loader;
+using UserModeling;
 
-namespace UserModeling
+namespace MathCog2.UserModeling
 {
     /// <summary>
     /// Math Problem Tutor
