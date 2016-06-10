@@ -186,7 +186,7 @@ namespace UserModeling
                 if (node != null)
                 {
                     return SearchNextInnerLoopNode(node);
-                    return new Tuple<object, object>(edgeInfo, node);
+                    //return new Tuple<object, object>(edgeInfo, node);
                 }
                 if (lstNode != null)
                 {

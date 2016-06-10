@@ -115,7 +115,7 @@ namespace MathCogUserData
                 default:
                     return null;
             }
-            return null;
+            //return null;
         }
     }
 

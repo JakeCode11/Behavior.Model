@@ -194,7 +194,7 @@ namespace UserModeling
 
             // User Input
             var userExpr1 = new Term(Expression.Add, new List<object> { 1, 1 });
-            BehaviorGraphNode matchedNode;
+            //BehaviorGraphNode matchedNode;
             var node = graph.SearchInnerLoopNode(userExpr1);
             Assert.NotNull(node);
 
