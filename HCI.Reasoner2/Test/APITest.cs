@@ -27,6 +27,13 @@ namespace UserModeling.Test
             Console.WriteLine(mti.CurrentProblemTutor.PL.CurrentProblem.OriginalProblem);
             Console.WriteLine();
             Assert.True(MathTutorEngine.Instance.TutoredProblems.Count == 3);
+
+            MathTutorEngine.Instance.Select(200);
+            mti = MathTutorEngine.Instance.CurrentTutorInterp;
+            Console.WriteLine(mti.CurrentProblemTutor.PL.CurrentProblem.OriginalProblem);
+            Console.WriteLine();
+            Assert.True(MathTutorEngine.Instance.TutoredProblems.Count == 4);
+
         }
     }
 }

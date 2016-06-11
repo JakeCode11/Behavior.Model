@@ -41,7 +41,7 @@
             { "id": 13, "tag": ".", "interaction": "None" },
             { "id": 14, "tag": "What is the value of", "interaction": "None" },
             { "id": 15, "tag": "v", "interaction": "Input", "input": "v" },
-            { "id": 16, "tag": "?", "interaction": "None" },
+            { "id": 16, "tag": "?", "interaction": "None" }
         ],
         "semantic": [
             {
@@ -99,8 +99,8 @@
             { "id": 18, "tag": "is the", "interaction": "None" },
             { "id": 19, "tag": "general form", "interaction": "Concept", "concept": "Line General Form" },
             { "id": 20, "tag": "of this line?", "interaction": "None" },
-            { "id": 21, "tag": "(Use notation m to represent line slope and k to represent y-intercept)", "interaction": "None" },
-        ],
+            { "id": 21, "tag": "(Use notation m to represent line slope and k to represent y-intercept)", "interaction": "None" }
+        ]
     },
     {
         "id": 5,
@@ -118,8 +118,7 @@
             { "id": 9, "tag": "slope", "interaction": "Concept", "concept": "Line Slope" },
             { "id": 10, "tag": "of this line?", "interaction": "None" },
             { "id": 11, "tag": "(Use notation m to represent line slope) (Note: Do not drag the given expression onto the geometric side, you need to solve it for the first question.)", "interaction": "None" }
-
-        ],
+        ]
     },
     {
         "id": 6,
@@ -144,8 +143,7 @@
             { "id": 16, "tag": "is the", "interaction": "None" },
             { "id": 17, "tag": "y-intercept", "interaction": "Concept", "concept": "Line y-intercept" },
             { "id": 18, "tag": "of the line?", "interaction": "None" },
-            { "id": 19, "tag": "(Use notation m to represent line slope and k as y-intercept)", "interaction": "None" },
-
+            { "id": 19, "tag": "(Use notation m to represent line slope and k as y-intercept)", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -205,8 +203,7 @@
             { "id": 8, "tag": "to the line CD", "interaction": "None" },
             { "id": 9, "tag": ", defined by", "interaction": "None" },
             { "id": 10, "tag": "2y+x-2=0", "interaction": "Input" },
-            { "id": 11, "tag": ".", "interaction": "None" },
-
+            { "id": 11, "tag": ".", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -234,7 +231,7 @@
             { "id": 16, "tag": "what", "interaction": "Input", "input": "lineG" },
             { "id": 17, "tag": "is the", "interaction": "None" },
             { "id": 18, "tag": "general form", "interaction": "Concept", "concept": "Line General Form" },
-            { "id": 19, "tag": "of line A?", "interaction": "None" },
+            { "id": 19, "tag": "of line A?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -258,7 +255,7 @@
             { "id": 12, "tag": "is the", "interaction": "None" },
             { "id": 13, "tag": "general form", "interaction": "Concept", "concept": "Line General Form" },
             { "id": 14, "tag": "of line B?", "interaction": "None" },
-            { "id": 15, "tag": "(use notation m1 to represent line A's slope, m as line B's slope and k as line B's intercept)", "interaction": "None" },
+            { "id": 15, "tag": "(use notation m1 to represent line A's slope, m as line B's slope and k as line B's intercept)", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -353,7 +350,7 @@
             { "id": 7, "tag": ".", "interaction": "None" },
             { "id": 8, "tag": "Write the", "interaction": "None" },
             { "id": 9, "tag": "standard form", "interaction": "Concept", "concept": "TODO" },
-            { "id": 10, "tag": "of the equation of the circle.", "interaction": "None" },
+            { "id": 10, "tag": "of the equation of the circle.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -371,7 +368,7 @@
             { "id": 6, "tag": "A(-1,2)", "interaction": "Input" },
             { "id": 7, "tag": "and", "interaction": "None" },
             { "id": 8, "tag": "B(5,8)", "interaction": "Input" },
-            { "id": 9, "tag": ".", "interaction": "None" },
+            { "id": 9, "tag": ".", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -419,7 +416,7 @@
             { "id": 8, "tag": "to the line CD", "interaction": "None" },
             { "id": 9, "tag": ", defined by", "interaction": "None" },
             { "id": 10, "tag": "2y+x-2=0", "interaction": "Input" },
-            { "id": 11, "tag": ".", "interaction": "None" },
+            { "id": 11, "tag": ".", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -437,7 +434,7 @@
             { "id": 6, "tag": "circle", "interaction": "Concept", "concept": "TODO" },
             { "id": 7, "tag": "given by", "interaction": "None" },
             { "id": 8, "tag": "8x^2+8y^2-16x-32y+24=0", "interaction": "Input" },
-            { "id": 9, "tag": "?", "interaction": "None" },
+            { "id": 9, "tag": "?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -463,7 +460,7 @@
             { "id": 14, "tag": "(-4,6)", "interaction": "Input" },
             { "id": 15, "tag": "lie on", "interaction": "None" },
             { "id": 16, "tag": "circle C", "interaction": "None" },
-            { "id": 17, "tag": "?", "interaction": "None" },
+            { "id": 17, "tag": "?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -496,7 +493,7 @@
             { "id": 21, "tag": "and", "interaction": "None" },
             { "id": 22, "tag": "intersect", "interaction": "None" },
             { "id": 23, "tag": "the circle in two places.", "interaction": "None" },
-            { "id": 24, "tag": "Where does the line intersect the circle?", "interaction": "None" },
+            { "id": 24, "tag": "Where does the line intersect the circle?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -510,7 +507,7 @@
             { "id": 2, "tag": "There is a line L of which the standard form is x-y-1=0.", "interaction": "None" },
             { "id": 3, "tag": "1) What is the relation between C and L?", "interaction": "None" },
             { "id": 4, "tag": "2) If they intersect at two points, what are the value of two intersect points coordinates?", "interaction": "None" },
-            { "id": 5, "tag": "3) Find the distance between the center of circle CP and line L?", "interaction": "None" },
+            { "id": 5, "tag": "3) Find the distance between the center of circle CP and line L?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -521,7 +518,7 @@
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ", "interaction": "None" },
-            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" },
+            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -532,7 +529,7 @@
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ", "interaction": "None" },
-            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" },
+            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -543,7 +540,7 @@
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ", "interaction": "None" },
-            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" },
+            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -554,7 +551,7 @@
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ", "interaction": "None" },
-            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" },
+            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -565,7 +562,7 @@
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Two cities are marked on coordinate grid as A (-4, 5)  and B ( 5, -8). Find the distance between the two cities A and B in coordinate units. If the city C is Determine the distance between them, ", "interaction": "None" },
-            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" },
+            { "id": 2, "tag": "Find the midpoint, slope and equation of a line segment, determine if lines are parallel or perpendicular located exactly halfway between A and B, find the coordinates representing the city C on the grid.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -589,7 +586,7 @@
             { "id": 12, "tag": "is the", "interaction": "None" },
             { "id": 13, "tag": "distance", "interaction": "Concept", "concept": "Distance" },
             { "id": 14, "tag": "betweeen these two points?", "interaction": "None" },
-            { "id": 15, "tag": "(Use notation d to represent distance and round to 1 decimal place.)", "interaction": "None" },
+            { "id": 15, "tag": "(Use notation d to represent distance and round to 1 decimal place.)", "interaction": "None" }
         ],
         "semanticTagging": [
             { "id": 2, "dependencies": [ 4, 6 ] }
@@ -617,7 +614,7 @@
             { "id": 12, "tag": ".", "interaction": "None" },
             { "id": 13, "tag": "What", "interaction": "Input", "input": "v" },
             { "id": 14, "tag": "is the value of v?", "interaction": "None" },
-            { "id": 15, "tag": "(Use notation m1 to represent line B's slope, m as line A's slope)", "interaction": "None" },
+            { "id": 15, "tag": "(Use notation m1 to represent line B's slope, m as line A's slope)", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -698,8 +695,8 @@
             { "id": 18, "tag": "is the", "interaction": "None" },
             { "id": 19, "tag": "general form", "interaction": "Concept", "concept": "Line General Form" },
             { "id": 20, "tag": "of this line?", "interaction": "None" },
-            { "id": 21, "tag": "(Use notation m to represent line slope and k to represent y-intercept)", "interaction": "None" },
-        ],
+            { "id": 21, "tag": "(Use notation m to represent line slope and k to represent y-intercept)", "interaction": "None" }
+        ]
     },
     {
         "id": 54,
@@ -717,8 +714,7 @@
             { "id": 9, "tag": "slope", "interaction": "Concept", "concept": "Line Slope" },
             { "id": 10, "tag": "of this line?", "interaction": "None" },
             { "id": 11, "tag": "(Use notation m to represent line slope) (Note: Do not drag the given expression onto the geometric side, you need to solve it for the first question.)", "interaction": "None" }
-
-        ],
+        ]
     },
     {
         "id": 55,
@@ -743,8 +739,7 @@
             { "id": 16, "tag": "is the", "interaction": "None" },
             { "id": 17, "tag": "y-intercept", "interaction": "Concept", "concept": "Line y-intercept" },
             { "id": 18, "tag": "of the line?", "interaction": "None" },
-            { "id": 19, "tag": "(Use notation m to represent line slope and k as y-intercept)", "interaction": "None" },
-
+            { "id": 19, "tag": "(Use notation m to represent line slope and k as y-intercept)", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -772,7 +767,7 @@
             { "id": 16, "tag": "what", "interaction": "Input", "input": "lineG" },
             { "id": 17, "tag": "is the", "interaction": "None" },
             { "id": 18, "tag": "general form", "interaction": "Concept", "concept": "Line General Form" },
-            { "id": 19, "tag": "of line A?", "interaction": "None" },
+            { "id": 19, "tag": "of line A?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -796,7 +791,7 @@
             { "id": 12, "tag": "is the", "interaction": "None" },
             { "id": 13, "tag": "general form", "interaction": "Concept", "concept": "Line General Form" },
             { "id": 14, "tag": "of line B?", "interaction": "None" },
-            { "id": 15, "tag": "(use notation m1 to represent line A's slope, m as line B's slope and k as line B's intercept)", "interaction": "None" },
+            { "id": 15, "tag": "(use notation m1 to represent line A's slope, m as line B's slope and k as line B's intercept)", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -815,7 +810,7 @@
             { "id": 6, "tag": "C(3,1)", "interaction": "Input" },
             { "id": 7, "tag": "and", "interaction": "None" },
             { "id": 8, "tag": "D(-1,3)", "interaction": "Input" },
-            { "id": 9, "tag": ".", "interaction": "None" },
+            { "id": 9, "tag": ".", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -839,7 +834,7 @@
             { "id": 12, "tag": "is the", "interaction": "None" },
             { "id": 13, "tag": "distance", "interaction": "Concept", "concept": "Distance" },
             { "id": 14, "tag": "betweeen these two points?", "interaction": "None" },
-            { "id": 15, "tag": "(Use notation d to represent distance and round to 1 decimal place.)", "interaction": "None" },
+            { "id": 15, "tag": "(Use notation d to represent distance and round to 1 decimal place.)", "interaction": "None" }
         ],
         "semanticTagging": [
             { "id": 2, "dependencies": [ 4, 6 ] }
@@ -867,7 +862,7 @@
             { "id": 12, "tag": ".", "interaction": "None" },
             { "id": 13, "tag": "What", "interaction": "Input", "input": "v" },
             { "id": 14, "tag": "is the value of v?", "interaction": "None" },
-            { "id": 15, "tag": "(Use notation m, m1 to represent line slope)", "interaction": "None" },
+            { "id": 15, "tag": "(Use notation m, m1 to represent line slope)", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -894,7 +889,7 @@
             { "id": 1, "tag": "Line C passes through the point (5, 2). Line C is parallel to the line 4x+6y-12=0.", "interaction": "None" },
             { "id": 2, "tag": "1) Graph Line C on the geometric coordinate canvas. ", "interaction": "None" },
             { "id": 3, "tag": "2) Solve for the equation of line C on the algebraic canvas. ", "interaction": "None" },
-            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -907,7 +902,7 @@
             { "id": 1, "tag": "Find the minimum distance between the point (1,-3) and the line y=-x+6. ", "interaction": "None" },
             { "id": 2, "tag": "1) Graph this line, point (1,-3), and the distance (either line or line segment) between them onto the geometric coordinate canvas. ", "interaction": "None" },
             { "id": 3, "tag": "2) Solve for the value of the distance, d, in the algebraic canvas. Round your answer to two decimal places.", "interaction": "None" },
-            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -920,7 +915,7 @@
             { "id": 1, "tag": "Circle A is centered about the origin (0, 0) and has a radius of 5. Line B is tangent to circle A at the point (-3, 4).", "interaction": "None" },
             { "id": 2, "tag": "1) Graph Circle A and Line B on the geometric coordinate canvas. ", "interaction": "None" },
             { "id": 3, "tag": "2) Solve for the equation for the line that is tangent to circle A at the point (-3, 4). ", "interaction": "None" },
-            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -946,7 +941,7 @@
             { "id": 1, "tag": "Line C passes through the point (0,2). Line C is parallel to the line 2y=4x+10.", "interaction": "None" },
             { "id": 2, "tag": "1) Graph Line C on the geometric coordinate canvas. ", "interaction": "None" },
             { "id": 3, "tag": "2) Solve for the equation of line C on the algebraic canvas. ", "interaction": "None" },
-            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -959,7 +954,7 @@
             { "id": 1, "tag": "Find the minimum distance between the point (-2,-4) and the line 3y=-x+6. ", "interaction": "None" },
             { "id": 2, "tag": "1) Graph this line, point, and the distance (either line or line segment) between them onto the geometric coordinate canvas. ", "interaction": "None" },
             { "id": 3, "tag": "2) Solve for the value of the distance, d, in the algebraic canvas. Round your answer to two decimal places.", "interaction": "None" },
-            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" },
+            { "id": 4, "tag": "You do not have to complete the above steps in any particular order.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1008,7 +1003,7 @@
          "syntaxTagging": [
             { "id": 1, "tag": "When put on a coordinate plane, 1st street has the equation y = -(1/3)x-5.", "interaction": "None" },
             { "id": 2, "tag": "2nd street is perpendicular to 1st street and goes through the point (5, 4).", "interaction": "None" },
-            { "id": 3, "tag": "Write the equation for 2nd street in slope-intercept form.", "interaction": "None" },            
+            { "id": 3, "tag": "Write the equation for 2nd street in slope-intercept form.", "interaction": "None" }            
         ],
         "semantic": [
         ]
@@ -1044,7 +1039,7 @@
          "syntaxTagging": [
             { "id": 1, "tag": "Tom is building a bench in a nook where his wall recedes.", "interaction": "None" },
             { "id": 2, "tag": "The depression starts on the left side at point L (1, 3) and goes to the right ending at point R (5, b).", "interaction": "None" },
-            { "id": 3, "tag": "The distance between L and R is 5. What is the value of b?", "interaction": "None" },
+            { "id": 3, "tag": "The distance between L and R is 5. What is the value of b?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1079,7 +1074,7 @@
         "type": "Arithmetic",
         "syntaxTagging": [
             { "id": 1, "tag": "Simplify", "interaction": "Input", "input": "x+2-1=" },
-            { "id": 2, "tag": "the expression x+2-1?", "interaction": "None" },
+            { "id": 2, "tag": "the expression x+2-1?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1090,7 +1085,7 @@
         "type": "Arithmetic",
         "syntaxTagging": [
             { "id": 1, "tag": "Simplify", "interaction": "Input", "input": "x+1+x-4=" },
-            { "id": 2, "tag": "the expression x+1+x-4?", "interaction": "None" },
+            { "id": 2, "tag": "the expression x+1+x-4?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1101,7 +1096,7 @@
         "type": "Arithmetic",
         "syntaxTagging": [
             { "id": 1, "tag": "Simplify", "interaction": "Input", "input": "1+2-3=" },
-            { "id": 2, "tag": "the expression 1+2-3?", "interaction": "None" },
+            { "id": 2, "tag": "the expression 1+2-3?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1112,7 +1107,7 @@
         "type": "Arithmetic",
         "syntaxTagging": [
             { "id": 1, "tag": "Simplify", "interaction": "Input", "input": "1+2+3=" },
-            { "id": 2, "tag": "the expression 1+2+3?", "interaction": "None" },
+            { "id": 2, "tag": "the expression 1+2+3?", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1141,20 +1136,18 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Mason is standing on the seashore. He believes that if he makes a wish and throws a seashell back into the ocean, his wish will come true.", "interaction": "None" },
             { "id": 2, "tag": "Mason is standing at the origin of a coordinate plane and the shoreline is represented by the graph of the line y=1.5x+13.", "interaction": "None" },
-            { "id": 3, "tag": "Each unit represents 1 meter. How far does Mason need to be able to throw the seashell to throw one into the ocean? Round your answer to the nearest centimeter.", "interaction": "None" },
+            { "id": 3, "tag": "Each unit represents 1 meter. How far does Mason need to be able to throw the seashell to throw one into the ocean? Round your answer to the nearest centimeter.", "interaction": "None" }
         ],
         "semantic": [
         ]
     },
-
-
     {
         "id": 200,
         "problem": "Practice: Write math expressions or equations on the algebraic canvas.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Practice: Write math expressions or equations on the algebraic canvas.", "interaction": "None" },
-            { "id": 2, "tag": "Practice: Learn how to erase the equations.", "interaction": "None" },
+            { "id": 2, "tag": "Practice: Learn how to erase the equations.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1164,7 +1157,7 @@
         "problem": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.", "interaction": "None" },
+            { "id": 1, "tag": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1176,7 +1169,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 2 (Point): 1.Draw a point.", "interaction": "None" },
             { "id": 2, "tag": "2.Move the point to (3,0).", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase the point.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase the point.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1188,7 +1181,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 3 (Line): 1.Draw a line without pre-existing points.", "interaction": "None" },
             { "id": 2, "tag": "2.Move the line to pass through (0,0) and (5,1).", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1200,7 +1193,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 4 (Line): 1.Draw a point (2,0)", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a line passing through this point.", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1213,7 +1206,7 @@
             { "id": 1, "tag": "Practice 5 (Line): 1.Draw a point (-1,3)", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a point (2,-5).", "interaction": "None" },
             { "id": 3, "tag": "3.Draw a line through these two points.", "interaction": "None" },
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1226,7 +1219,7 @@
             { "id": 1, "tag": "Practice 6 (Line Segment): 1.Draw a point (1,-3).", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a point (-2,5).", "interaction": "None" },
             { "id": 3, "tag": "3.Draw a line segment through these two points.", "interaction": "None" },
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1238,7 +1231,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 7 (Circle): 1.Draw a circle with the radius of 4.", "interaction": "None" },
             { "id": 2, "tag": "2.Move the circle center to (4,4).", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1250,7 +1243,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 8 (Two Lines Parallel): 1.Draw a line without pre-existing points", "interaction": "None" },
             { "id": 2, "tag": "2.Draw another line passing which is paralell to the first line.", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1263,7 +1256,7 @@
             { "id": 1, "tag": "Practice 9 (Two Lines Parallel): 1.Draw a line without pre-existing points", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a point not on that line.", "interaction": "None" },
             { "id": 3, "tag": "3.Draw another line passing through that point and paralell to the first line.", "interaction": "None" },
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1275,7 +1268,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 10 (Two Lines Perpendicular): 1.Draw a line without pre-existing points", "interaction": "None" },
             { "id": 2, "tag": "2.Draw another line which is perpendicular to the first line.", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1288,7 +1281,7 @@
             { "id": 1, "tag": "Practice 11 (Two Lines Perpendicular): 1.Draw a line without pre-existing points. ", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a point not on that line.", "interaction": "None" },
             { "id": 3, "tag": "3.Draw another line passing through that point and perpendicular to the first line.", "interaction": "None" },
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1301,7 +1294,7 @@
             { "id": 1, "tag": "Practice 12 (Line tangent to Circle): 1.Draw a circle.", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a line passes through the center of the circle and the point on the circle.", "interaction": "None" },
             { "id": 3, "tag": "3.Draw a line perpendicular to the previous drawn line, which passes through the point on the circle.", "interaction": "None" },
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1313,7 +1306,7 @@
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
             { "id": 1, "tag": "Practice: Write math expressions or equations on the algebraic canvas.", "interaction": "None" },
-            { "id": 2, "tag": "Practice: Learn how to erase the equations.", "interaction": "None" },
+            { "id": 2, "tag": "Practice: Learn how to erase the equations.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1323,7 +1316,7 @@
         "problem": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.", "interaction": "None" },
+            { "id": 1, "tag": "Practice 1 (Canvas Manipulation): Move the coordinates using your hand.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1335,7 +1328,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 2 (Point): 1.Draw a point.", "interaction": "None" },
             { "id": 2, "tag": "2.Move the point to (3,0).", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1347,7 +1340,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 3 (Line): 1.Draw a line without pre-existing points.", "interaction": "None" },
             { "id": 2, "tag": "2.Move the line to pass through (0,0) and (5,1).", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1359,7 +1352,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 4 (Line): 1.Draw a point (2,0)", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a line passing through this point.", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1372,7 +1365,7 @@
             { "id": 1, "tag": "Practice 5 (Line): 1.Draw a point (-1,3)", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a point (2,-5).", "interaction": "None" },
             { "id": 3, "tag": "3.Draw a line through these two points.", "interaction": "None" },
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1385,7 +1378,7 @@
             { "id": 1, "tag": "Practice 6 (Line Segment): 1.Draw a point (1,-3).", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a point (-2,5).", "interaction": "None" },
             { "id": 3, "tag": "3.Draw a line segment through these two points.", "interaction": "None" },
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1397,7 +1390,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 7 (Circle): 1.Draw a circle with the radius of 4.", "interaction": "None" },
             { "id": 2, "tag": "2.Move the circle center to (4,4).", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1409,7 +1402,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 8 (Two Lines Parallel): 1.Draw a line without pre-existing points", "interaction": "None" },
             { "id": 2, "tag": "2.Draw another line passing which is paralell to the first line.", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1422,7 +1415,7 @@
             { "id": 1, "tag": "Practice 9 (Two Lines Parallel): 1.Draw a line without pre-existing points", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a point not on that line.", "interaction": "None" },
             { "id": 3, "tag": "3.Draw another line passing through that point and paralell to the first line.", "interaction": "None" },
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1434,7 +1427,7 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 10 (Two Lines Perpendicular): 1.Draw a line without pre-existing points", "interaction": "None" },
             { "id": 2, "tag": "2.Draw another line which is perpendicular to the first line.", "interaction": "None" },
-            { "id": 3, "tag": "3.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1447,7 +1440,7 @@
             { "id": 1, "tag": "Practice 11 (Two Lines Perpendicular): 1.Draw a line without pre-existing points. ", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a point not on that line.", "interaction": "None" },
             { "id": 3, "tag": "3.Draw another line passing through that point and perpendicular to the first line.", "interaction": "None" },
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1459,10 +1452,80 @@
         "syntaxTagging": [
             { "id": 1, "tag": "Practice 12 (Line tangent to Circle): 1.Draw a circle.", "interaction": "None" },
             { "id": 2, "tag": "2.Draw a line passes through the center of the circle and the point on the circle.", "interaction": "None" },
-            { "id": 3, "tag": "3.Draw a line perpendicular to the previous drawn line, which passes through the point on the circle.", "interaction": "None" },            
-            { "id": 4, "tag": "4.Erase them.", "interaction": "None" },
+            { "id": 3, "tag": "3.Draw a line perpendicular to the previous drawn line, which passes through the point on the circle.", "interaction": "None" },
+            { "id": 4, "tag": "4.Erase them.", "interaction": "None" }
         ],
         "semantic": [
         ]
     },
+    {
+        "id": 400,
+        "problem": "Practice: Get familiar with the current system and explore different functionalities of it. You can ask the researcher any questions during your exploration.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Practice: Get familiar with the current system and explore different functionalities of it. You can ask the researcher any questions during your exploration.", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 401,
+        "problem": "When put on a coordinate plane, 1st street has the equation y=-(1/3)x-5. 2nd street is perpendicular to 1st street and goes through the point (5, 4). Write the equation for 2nd street in the slope-intercept form.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "When put on a coordinate plane, 1st street has the equation y=-(1/3)x-5. 2nd street is perpendicular to 1st street and goes through the point (5, 4). Write the equation for 2nd street in the slope-intercept form.", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 402,
+        "problem": "Albert needs to set up a light perpendicular to a stage. He know the equation for the stage is 2x-3y=9. Also, he knows the stage goes through a point (-4, -1). Give the equation of line in the slope-intercept form if it is perpendicular to the stage.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "Albert needs to set up a light perpendicular to a stage. He know the equation for the stage is 2x-3y=9. Also, he knows the stage goes through a point (-4, -1). Give the equation of line in the slope-intercept form if it is perpendicular to the stage.", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 403,
+        "problem": "You would like to create an intersection of 2 roads that is perpendicular. The first road is already constructed and expressed as -y+7=2x+5. You are already informed that the 2nd road goes through a point (-2,9). Find the equation of the second road in a slope-intercept form.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "You would like to create an intersection of 2 roads that is perpendicular. The first road is already constructed and expressed as -y+7=2x+5. You are already informed that the 2nd road goes through a point (-2,9). Find the equation of the second road in a slope-intercept form.", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 404,
+        "problem": "There is a circular puddle where the center of it locates at (0,0). The radius of this puddle is 3. There is a straight walking board across the puddle. This straight board can be modeled as x+y-3=0. Where does this board intersect with the puddle? Write intersect point marks.",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "There is a circular puddle where the center of it locates at (0,0). The radius of this puddle is 3. There is a straight walking board across the puddle. This straight board can be modeled as x+y-3=0. Where does this board intersect with the puddle? Write intersect point marks.", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 405,
+        "problem": "To get to school, Chad must canoe across a circular lake through a direct line path. The diameter of the lake is 6 miles. The center of the lake locates at the coordinate (1,1). The direct crossing path can be expressed as x-y-1=0. Where are the two point marks that Chad starts and ends canoe?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "To get to school, Chad must canoe across a circular lake through a direct line path. The diameter of the lake is 6 miles. The center of the lake locates at the coordinate (1,1). The direct crossing path can be expressed as x-y-1=0. Where are the two point marks that Chad starts and ends canoe?", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    },
+    {
+        "id": 406,
+        "problem": "During a field trip, your group encountered a  circular forest with a diameter of 6 miles. The center of forest locates at (-1,0). Your instructor informed you to go around the forest in order to reach your destination. Looking at your map, you found out that your destination is right across where you are. This direct sight can be expressed as x-y+3=0. Assume you are located at (-2,1), where is the location when you pass the forest?",
+        "type": "AlgebraGeoemtry",
+        "syntaxTagging": [
+            { "id": 1, "tag": "During a field trip, your group encountered a  circular forest with a diameter of 6 miles. The center of forest locates at (-1,0). Your instructor informed you to go around the forest in order to reach your destination. Looking at your map, you found out that your destination is right across where you are. This direct sight can be expressed as x-y+3=0. Assume you are located at (-2,1), where is the location when you pass the forest?", "interaction": "None" }
+        ],
+        "semantic": [
+        ]
+    }
 ]

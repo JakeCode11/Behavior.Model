@@ -57,7 +57,7 @@ namespace MathCog.UserModeling
             set { _currentStateNode = value; }
         }
         
-        private bool _queryProcessed = false;
+        //private bool _queryProcessed;
         public int? TraceLeftCount
         {
             get { return ObjectGraph.PathFinding(CurrentStateNode); }
@@ -87,7 +87,7 @@ namespace MathCog.UserModeling
             _problemIndex = -1;          
             CurrentStateNode = null;
             _currentStepHintRequired = true;
-            _queryProcessed = false;
+            //_queryProcessed = false;
         }
 
         public void Reset(object obj)
