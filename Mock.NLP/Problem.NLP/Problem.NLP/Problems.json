@@ -1470,10 +1470,10 @@
     },
     {
         "id": 401,
-        "problem": "When put on a coordinate plane, 1st street has the equation y=-(1/3)x-5. 2nd street is perpendicular to 1st street and goes through the point (5, 4). Write the equation for 2nd street in the slope-intercept form.",
+        "problem": "When put on a coordinate plane, 1st street has the equation 3y+x=-15. 2nd street is perpendicular to 1st street and goes through the point (5,4). Write the equation for 2nd street in the slope-intercept form.",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "When put on a coordinate plane, 1st street has the equation y=-(1/3)x-5. 2nd street is perpendicular to 1st street and goes through the point (5, 4). Write the equation for 2nd street in the slope-intercept form.", "interaction": "None" }
+            { "id": 1, "tag": "When put on a coordinate plane, 1st street has the equation 3y+x=-15. 2nd street is perpendicular to 1st street and goes through the point (5,4). Write the equation for 2nd street in the slope-intercept form.", "interaction": "None" }
         ],
         "semantic": [
         ]
@@ -1520,10 +1520,10 @@
     },
     {
         "id": 406,
-        "problem": "During a field trip, your group encountered a  circular forest with a diameter of 6 miles. The center of forest locates at (-1,0). Your instructor informed you to go around the forest in order to reach your destination. Looking at your map, you found out that your destination is right across where you are. This direct sight can be expressed as x-y+3=0. Assume you are located at (-2,1), where is the location when you pass the forest?",
+        "problem": "During a field trip, your group encountered a circular forest with a diameter of 6 miles. The center of the forest locates at (-1,0). Your group's path can be expressed as x-y+3=0. Marks the two points where your group will enter and exit the forest?",
         "type": "AlgebraGeoemtry",
         "syntaxTagging": [
-            { "id": 1, "tag": "During a field trip, your group encountered a  circular forest with a diameter of 6 miles. The center of forest locates at (-1,0). Your instructor informed you to go around the forest in order to reach your destination. Looking at your map, you found out that your destination is right across where you are. This direct sight can be expressed as x-y+3=0. Assume you are located at (-2,1), where is the location when you pass the forest?", "interaction": "None" }
+            { "id": 1, "tag": "During a field trip, your group encountered a circular forest with a diameter of 6 miles. The center of the forest locates at (-1,0). Your group's path can be expressed as x-y+3=0. Marks the two points where your group will enter and exit the forest?", "interaction": "None" }
         ],
         "semantic": [
         ]
