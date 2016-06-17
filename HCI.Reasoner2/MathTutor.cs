@@ -14,11 +14,10 @@
  * limitations under the License.
  *******************************************************************************/
 
-using System.Collections.Generic;
-using UserModeling;
-
 namespace MathCog2.UserModeling
 {
+    using System.Collections.Generic;
+
     public class MathTutorEngine : ISelect, IAnalyze
     {
         //Record a list of Tutored Problem
